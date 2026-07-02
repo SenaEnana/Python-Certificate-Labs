@@ -13,3 +13,13 @@ class Planet:
         self.name = name
         self.planet_type = planet_type
         self.star = star
+
+# 4. The Planet class should have a __str__ method that returns a string in the format Planet: {name} | Type: {planet_type} | Star: {star}.
+
+    def orbit(self) -> str:
+        # Returns string in the exact format required
+        return f"{self.name} is orbiting around {self.star}..."
+
+    def __str__(self) -> str:
+        # Returns the string representation of the object
+        return f"Planet: {self.name} | Type: {self.planet_type} | Star: {self.star}"
