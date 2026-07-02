@@ -9,3 +9,7 @@ class Planet:
         # Note: We strip whitespace just in case, but an empty check like == "" or not value works.
         if name == "" or planet_type == "" or star == "":
             raise ValueError("name, planet_type, and star must be non-empty strings")
+        # 3. The Planet class should have an orbit method that returns a string in the format {name} is orbiting around {star}....
+        self.name = name
+        self.planet_type = planet_type
+        self.star = star
