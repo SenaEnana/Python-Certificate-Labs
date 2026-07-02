@@ -3,7 +3,11 @@ class MusicalInstrument:
         self.name = name
         self.instrument_type = instrument_type
 
+    def play(self):
+        print(f'The {self.name} is fun to play!')
     
+    def get_fact(self):
+        return f'The {self.name} is part of the {self.instrument_type} family of instruments.'
 
 instrument_1 = MusicalInstrument('Oboe', 'woodwind')
 instrument_2 = MusicalInstrument('Trumpet', 'brass')
