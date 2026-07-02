@@ -23,3 +23,26 @@ class Planet:
     def __str__(self) -> str:
         # Returns the string representation of the object
         return f"Planet: {self.name} | Type: {self.planet_type} | Star: {self.star}"
+
+
+# --- Instance Creation and Testing ---
+# 5. You should create three instances of the Planet class named planet_1, planet_2, and planet_3.
+# 6. You should print each planet object to see the __str__ method output.
+# 7. You should call the orbit method on each planet object and print the result.
+
+# Creating three instances of the Planet class
+planet_1 = Planet("Earth", "Terrestrial", "The Sun")
+planet_2 = Planet("Jupiter", "Gas Giant", "The Sun")
+planet_3 = Planet("Kepler-186f", "Super-Earth", "Kepler-186")
+
+# Printing each planet object to see the __str__ method output
+print(planet_1)
+print(planet_2)
+print(planet_3)
+
+print("-" * 40) # Visual separator
+
+# Calling the orbit method on each planet object and printing the result
+print(planet_1.orbit())
+print(planet_2.orbit())
+print(planet_3.orbit())
