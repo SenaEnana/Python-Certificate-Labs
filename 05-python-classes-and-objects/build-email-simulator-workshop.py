@@ -23,3 +23,6 @@ class Inbox:
         self.emails = []
     def receive_email(self, email):
         self.emails.append(email)    
+
+alice = User('Alice')
+bob = User('Bob')
