@@ -28,7 +28,8 @@ class User:
         print('------------\n')     
 
     def __str__(self):
-        status = 'Read' if self.read == True else 'Unread'
+        status = 'Read' if self.read else 'Unread'
+        return f'[{status}] From: {self.sender.name} | Subject: {self.subject}' 
 
 class Inbox:
     def __init__(self):
