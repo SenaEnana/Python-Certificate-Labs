@@ -25,13 +25,18 @@ class Employee:
     def name(self):
         return self._name
 
+    @name.setter
+    def name(self, new_name):
+        self._name = new_name    
+
     @property
     def level(self):
         return self._level
 
     @property
     def salary(self):
-        return self._salary    
+        return self._salary
 
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
+print(f'Base salary: ${charlie_brown.salary}')
