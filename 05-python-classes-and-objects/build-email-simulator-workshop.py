@@ -37,6 +37,12 @@ class User:
         print(f"\n{self.name}'s Inbox:")
         self.inbox.list_emails()   
 
+    def read_email(self, index):
+        self.inbox.read_email(index)    
+    
+    def delete_email(self, index):
+        self.inbox.delete_email(index)
+
     def __str__(self):
         status = 'Read' if self.read else 'Unread'
         return f"[{status}] From: {self.sender.name} | Subject: {self.subject} | Time: {self.timestamp.strftime('%Y-%m-%d %H:%M')}"
