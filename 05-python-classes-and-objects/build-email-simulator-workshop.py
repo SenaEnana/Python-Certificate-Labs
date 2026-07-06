@@ -35,4 +35,9 @@ class Inbox:
     def __init__(self):
         self.emails = []
     def receive_email(self, email):
-        self.emails.append(email)    
+        self.emails.append(email)
+        
+    def list_emails(self):
+        if not self.emails:
+            print('Your inbox is empty.\n')
+            return    
