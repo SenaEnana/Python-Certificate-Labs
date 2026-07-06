@@ -8,6 +8,9 @@ class Email:
 
     def mark_as_read(self):
         self.read = True
+
+    def display_full_email(self):
+        self.mark_as_read()    
         
 class User:
     def __init__(self, name, inbox):
