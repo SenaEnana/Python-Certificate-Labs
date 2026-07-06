@@ -88,3 +88,6 @@ class Inbox:
 def main():
     tory = User('Tory')
     ramy = User('Ramy')
+
+if __name__ == '__main__':
+    main()
