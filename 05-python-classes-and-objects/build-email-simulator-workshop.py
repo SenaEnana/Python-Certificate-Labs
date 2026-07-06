@@ -62,7 +62,9 @@ class Inbox:
             print('Inbox is empty.\n')
             return
             actual_index = index - 1
-            
+
         if actual_index < 0 or actual_index >= len(self.emails):
             print('Invalid email number.\n')
             return 
+        del(self.emails[actual_index])
+        print('Email deleted.\n')  
