@@ -5,17 +5,17 @@ class Employee:
         'mid-level': 3000,
         'senior': 4000,
     }
-
+    
     def __init__(self, name, level):
         if not (isinstance(name, str) and isinstance(level, str)):
             raise TypeError("'name' and 'level' attribute must be of type 'str'.")
-
-        if not level in Employee._base_salaries:
-            raise ValueError(f"Invalid value '{level}' for 'level' attribute.") 
-
+        if level not in Employee._base_salaries:
+            raise ValueError(f"Invalid value '{level}' for 'level' attribute.")
         self._name = name
         self._level = level
+        self._salary = self._base_salaries[level]
         
+
     def __str__(self):
         return f'{self.name}: {self.level}'
 
