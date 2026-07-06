@@ -5,7 +5,7 @@ class Employee:
         'mid-level': 3000,
         'senior': 4000,
     }
-    
+
     def __init__(self, name, level):
         if not (isinstance(name, str) and isinstance(level, str)):
             raise TypeError("'name' and 'level' attribute must be of type 'str'.")
@@ -13,8 +13,7 @@ class Employee:
             raise ValueError(f"Invalid value '{level}' for 'level' attribute.")
         self._name = name
         self._level = level
-        self._salary = self._base_salaries[level]
-        
+        self._salary = Employee._base_salaries[level]
 
     def __str__(self):
         return f'{self.name}: {self.level}'
@@ -29,6 +28,10 @@ class Employee:
     @property
     def level(self):
         return self._level
+
+    @property
+    def salary(self):
+        return self._salary    
 
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
