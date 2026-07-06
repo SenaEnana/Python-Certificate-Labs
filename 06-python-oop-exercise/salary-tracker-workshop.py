@@ -17,3 +17,4 @@ class Employee:
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
 print(charlie_brown.name)
+print(charlie_brown.level)
