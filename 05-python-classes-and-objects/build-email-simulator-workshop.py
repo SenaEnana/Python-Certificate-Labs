@@ -23,7 +23,8 @@ class User:
         print("\n--- Email ---") 
         print(f'From: {self.sender.name}')
         print(f'To: {self.receiver.name}')    
-        print(f'Subject: {self.subject}')    
+        print(f'Subject: {self.subject}')
+        print(f'Body: {self.body}')     
 
 class Inbox:
     def __init__(self):
