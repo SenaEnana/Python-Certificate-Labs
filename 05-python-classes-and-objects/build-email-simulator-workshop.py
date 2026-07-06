@@ -24,7 +24,8 @@ class User:
         print(f'From: {self.sender.name}')
         print(f'To: {self.receiver.name}')    
         print(f'Subject: {self.subject}')
-        print(f'Body: {self.body}')     
+        print(f'Body: {self.body}')
+        print('------------\n')      
 
 class Inbox:
     def __init__(self):
