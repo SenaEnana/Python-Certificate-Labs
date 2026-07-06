@@ -25,7 +25,10 @@ class User:
         print(f'To: {self.receiver.name}')    
         print(f'Subject: {self.subject}')
         print(f'Body: {self.body}')
-        print('------------\n')      
+        print('------------\n')     
+
+    def __str__(self):
+        pass  
 
 class Inbox:
     def __init__(self):
