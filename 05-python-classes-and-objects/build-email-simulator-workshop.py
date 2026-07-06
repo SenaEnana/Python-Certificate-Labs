@@ -28,7 +28,7 @@ class User:
         print('------------\n')     
 
     def __str__(self):
-        pass  
+        status = 'Read' if self.read == True else 'Unread'
 
 class Inbox:
     def __init__(self):
