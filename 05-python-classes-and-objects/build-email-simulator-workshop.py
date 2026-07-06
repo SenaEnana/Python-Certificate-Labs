@@ -20,7 +20,9 @@ class User:
     def send_email(self, receiver, subject, body):
         email = Email(sender=self, receiver=receiver, subject=subject, body=body)
         receiver.inbox.receive_email(email)  
-        print("\n--- Email ---")       
+        print("\n--- Email ---") 
+        print(f'From: {self.sender.name}')
+        print(f'To: {self.receiver.name}')        
 
 class Inbox:
     def __init__(self):
