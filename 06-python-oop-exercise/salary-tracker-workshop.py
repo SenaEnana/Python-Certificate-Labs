@@ -30,7 +30,7 @@ class Employee:
         if not isinstance(new_name, str):
             raise TypeError("'name' must be a string.")
         self._name = new_name
-        print(f"'name' updated to '{new_name}'.")        
+        print(f"'name' updated to '{self.name}'.")
 
     @property
     def level(self):
@@ -43,3 +43,4 @@ class Employee:
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
 print(f'Base salary: ${charlie_brown.salary}')
+charlie_brown.name = 'John'
