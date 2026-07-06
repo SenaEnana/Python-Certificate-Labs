@@ -36,6 +36,8 @@ class Employee:
 
     @level.setter
     def level(self, new_level):
+        if not isinstance(new_level, str):
+            raise TypeError("'level' must be a string.")     
         self._level = new_level
 
     @property
