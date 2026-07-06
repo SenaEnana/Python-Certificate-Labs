@@ -22,7 +22,8 @@ class User:
         receiver.inbox.receive_email(email)  
         print("\n--- Email ---") 
         print(f'From: {self.sender.name}')
-        print(f'To: {self.receiver.name}')        
+        print(f'To: {self.receiver.name}')    
+        print(f'Subject: {self.subject}')    
 
 class Inbox:
     def __init__(self):
