@@ -84,3 +84,7 @@ class Inbox:
             return 
         del(self.emails[actual_index])
         print('Email deleted.\n')  
+
+def main():
+    tory = User('Tory')
+    ramy = User('Ramy')
