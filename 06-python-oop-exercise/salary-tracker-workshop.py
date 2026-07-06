@@ -36,6 +36,10 @@ class Employee:
     def level(self):
         return self._level
 
+    @level.setter
+    def level(self, new_level):
+        self._level = new_level    
+
     @property
     def salary(self):
         return self._salary
@@ -43,4 +47,3 @@ class Employee:
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
 print(f'Base salary: ${charlie_brown.salary}')
-charlie_brown.name = 'John'
