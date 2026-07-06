@@ -7,12 +7,10 @@ class Employee:
     }
 
     def __init__(self, name, level):
-        if not isinstance(level, str):
-            raise TypeError("'level' attribute must be of type 'str'.")
         if level not in Employee._base_salaries:
             raise ValueError(f"Invalid value '{level}' for 'level' attribute.")
         self.name = name
-        self._level = level
+        self.level = level
         self._salary = Employee._base_salaries[level]
 
     def __str__(self):
@@ -38,7 +36,7 @@ class Employee:
 
     @level.setter
     def level(self, new_level):
-        self._level = new_level    
+        self._level = new_level
 
     @property
     def salary(self):
