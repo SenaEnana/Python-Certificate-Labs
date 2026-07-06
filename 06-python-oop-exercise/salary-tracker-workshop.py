@@ -28,8 +28,9 @@ class Employee:
     @name.setter
     def name(self, new_name):
         if not isinstance(new_name, str):
-            raise TypeError("'name' must be a string.")        
+            raise TypeError("'name' must be a string.")
         self._name = new_name
+        print(f"'name' updated to '{new_name}'.")        
 
     @property
     def level(self):
