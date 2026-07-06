@@ -5,10 +5,14 @@ class Employee:
 
     def __str__(self):
         return f'{self._name}: {self._level}'
-
+    
     @property
     def name(self):
-        return self._name    
+        return self._name
+
+    @property
+    def level(self):  
+        return self._level  
 
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
