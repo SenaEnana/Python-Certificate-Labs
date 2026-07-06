@@ -5,7 +5,7 @@ class Employee:
         'mid-level': 3000,
         'senior': 4000,
     }
-    
+
     def __init__(self, name, level):
         if not isinstance(level, str):
             raise TypeError("'level' attribute must be of type 'str'.")
@@ -27,8 +27,10 @@ class Employee:
 
     @name.setter
     def name(self, new_name):
+        if not isinstance(new_name, str):
+            raise TypeError("'name' must be a string.")        
         self._name = new_name
-        
+
     @property
     def level(self):
         return self._level
