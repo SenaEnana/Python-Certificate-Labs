@@ -29,7 +29,9 @@ class User:
         print(f'Subject: {self.subject}')
         print(f"Received: {self.timestamp.strftime('%Y-%m-%d %H:%M')}") 
         print(f'Body: {self.body}')
-        print('------------\n')     
+        print('------------\n')    
+
+        print(f'Email sent from {self.name} to {receiver.name}!\n') 
 
     def __str__(self):
         status = 'Read' if self.read else 'Unread'
