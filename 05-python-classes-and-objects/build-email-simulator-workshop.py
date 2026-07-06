@@ -6,6 +6,7 @@ class Email:
         self.receiver = receiver
         self.subject = subject
         self.body = body
+        self.timestamp = datetime.datetime.now()
         self.read = False
 
     def mark_as_read(self):
