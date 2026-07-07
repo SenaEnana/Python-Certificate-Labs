@@ -42,7 +42,8 @@ class Employee:
             raise ValueError(f"'{self.level}' is already the selected level.")
         if hasattr(self, '_level') and Employee._base_salaries[new_level] < Employee._base_salaries[self.level]:
             raise ValueError("Cannot change to lower level.")
-        self._salary = Employee._base_salaries[new_level]        
+        print(f"'{self.name}' promoted to '{new_level}'.")        
+        self._salary = Employee._base_salaries[new_level]
         self._level = new_level
 
     @property
