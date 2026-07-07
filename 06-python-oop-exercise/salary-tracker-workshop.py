@@ -9,7 +9,7 @@ class Employee:
     def __init__(self, name, level):
         self.name = name
         self.level = level
-        self._salary = Employee._base_salaries[level]
+        self.salary = Employee._base_salaries[level]
 
     def __str__(self):
         return f'{self.name}: {self.level}'
@@ -52,11 +52,12 @@ class Employee:
 
     @salary.setter
     def salary(self, new_salary):
+        if not isinstance(new_salary, (int, float)):
+            raise TypeError("'salary' must be a number.")        
         self._salary = new_salary
-        print(f'Salary updated to ${new_salary}')
+        print(f'Salary updated to ${self.salary}.')
 
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
 print(f'Base salary: ${charlie_brown.salary}')
-
 charlie_brown.level = 'junior'
