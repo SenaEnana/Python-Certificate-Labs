@@ -36,13 +36,12 @@ class Employee:
     def level(self, new_level):
         if not isinstance(new_level, str):
             raise TypeError("'level' must be a string.")
-
         if new_level not in Employee._base_salaries:
             raise ValueError(f"Invalid value '{new_level}' for 'level' attribute.")
-
-        if hasattr(self, '_level') and self.level == new_level:
-            raise ValueError(f"'{self._level}' is already the selected level.")
-
+        if hasattr(self, '_level') and new_level == self.level:
+            raise ValueError(f"'{self.level}' is already the selected level.")
+        if hasattr(self, '_level') and Employee._base_salaries[new_level] < Employee._base_salaries[self.level]:
+            raise ValueError('Cannot change to lower level.')        
         self._level = new_level
     
     @property
