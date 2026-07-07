@@ -34,3 +34,14 @@ class GameCharacter:
             self._mana = 50
         else:
             self._mana = value
+
+    @property
+    def level(self):
+        return self._level
+
+    def level_up(self):
+        self._level += 1
+        # Using the property setters to reset health and mana
+        self.health = 100
+        self.mana = 50
+        print(f"{self.name} leveled up to {self.level}!")
