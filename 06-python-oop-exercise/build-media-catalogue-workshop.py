@@ -6,6 +6,8 @@ class Movie:
             raise ValueError('Year must be 1895 or later')
         if not director.strip():
             raise ValueError('Director cannot be empty')
+        if not duration > 0:
+            raise ValueError('Duration must be positive') 
         
         self.title = title
         self.year = year
