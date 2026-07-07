@@ -9,7 +9,7 @@ class Employee:
     def __init__(self, name, level):
         self.name = name
         self.level = level
-        self._salary = Employee._base_salaries[level]
+        self.salary = Employee._base_salaries[level]
 
     def __str__(self):
         return f'{self.name}: {self.level}'
@@ -42,14 +42,24 @@ class Employee:
             raise ValueError(f"'{self.level}' is already the selected level.")
         if hasattr(self, '_level') and Employee._base_salaries[new_level] < Employee._base_salaries[self.level]:
             raise ValueError("Cannot change to lower level.")
-        print(f"'{self.name}' promoted to '{new_level}'.")        
-        self._salary = Employee._base_salaries[new_level]
+        print(f"'{self.name}' promoted to '{new_level}'.")
+        self.salary = Employee._base_salaries[new_level]
         self._level = new_level
 
     @property
     def salary(self):
         return self._salary
 
+    @salary.setter
+    def salary(self, new_salary):
+        if not isinstance(new_salary, (int, float)):
+            raise TypeError("'salary' must be a number.")
+        if hasattr(self, '_level') and new_salary < Employee._base_salaries[self.level]:
+            raise ValueError(f'Salary must be higher than minimum salary ${Employee._base_salaries[self.level]}.')
+        self._salary = new_salary
+        print(f'Salary updated to ${self.salary}.')
+
 charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
 print(f'Base salary: ${charlie_brown.salary}')
+charlie_brown.level = 'junior'
