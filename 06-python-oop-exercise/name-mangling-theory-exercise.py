@@ -8,7 +8,7 @@
 
 # A single underscore prevents direct access, while a double underscore allows direct access.
 
-# A single underscore is just a convention, while a double underscore triggers name mangling.
+# A single underscore is just a convention, while a double underscore triggers name mangling.////correct
 
 # 2 What is name mangling?
 
@@ -16,7 +16,7 @@
 
 # A process in which Python deletes attributes with a single underscore to keep them hidden.
 
-# A process in which Python changes __attribute into _ClassName__attribute to avoid accidental overriding in subclasses.
+# A process in which Python changes __attribute into _ClassName__attribute to avoid accidental overriding in subclasses.////correct
 
 # A process in which Python encrypts private data to make it inaccessible from outside the class.
 
@@ -24,7 +24,7 @@
 
 # Both classes keep their own separate copies of the attribute without interfering with each other.
 
-# The child class completely overrides the parent class attribute, and the parent's data is lost.
+# The child class completely overrides the parent class attribute, and the parent's data is lost.////correct
 
 # The parent class attributes become read-only and cannot be changed by the child class.
 
