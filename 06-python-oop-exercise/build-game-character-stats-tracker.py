@@ -21,3 +21,16 @@ class GameCharacter:
             self._health = 100
         else:
             self._health = value
+
+    @property
+    def mana(self):
+        return self._mana
+
+    @mana.setter
+    def mana(self, value):
+        if value < 0:
+            self._mana = 0
+        elif value > 50:
+            self._mana = 50
+        else:
+            self._mana = value
