@@ -12,3 +12,12 @@ class GameCharacter:
     @property
     def health(self):
         return self._health
+
+    @health.setter
+    def health(self, value):
+        if value < 0:
+            self._health = 0
+        elif value > 100:
+            self._health = 100
+        else:
+            self._health = value
