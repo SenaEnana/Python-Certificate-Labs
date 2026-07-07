@@ -48,3 +48,18 @@ class GameCharacter:
 
     def __str__(self):
         return f"Name: {self.name}\nLevel: {self.level}\nHealth: {self.health}\nMana: {self.mana}"
+
+
+# --- Usage Example ---
+if __name__ == "__main__":
+    hero = GameCharacter('Kratos')
+    print(hero)
+    print("-" * 20)
+
+    hero.health -= 30
+    hero.mana -= 10
+    print(hero)
+    print("-" * 20)
+
+    hero.level_up()
+    print(hero)
