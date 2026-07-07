@@ -43,7 +43,7 @@ class Employee:
         if hasattr(self, '_level') and Employee._base_salaries[new_level] < Employee._base_salaries[self.level]:
             raise ValueError("Cannot change to lower level.")
         print(f"'{self.name}' promoted to '{new_level}'.")
-        self._salary = Employee._base_salaries[new_level]
+        self.salary = Employee._base_salaries[new_level]
         self._level = new_level
 
     @property
@@ -53,7 +53,10 @@ class Employee:
     @salary.setter
     def salary(self, new_salary):
         if not isinstance(new_salary, (int, float)):
-            raise TypeError("'salary' must be a number.")        
+            raise TypeError("'salary' must be a number.")
+
+        if hasattr(self, '_level') and new_salary < Employee._base_salaries[self.level]:
+            raise ValueError(f"Salary must be higher than minimum salary ${Employee._base_salaries[self.level]}.")
         self._salary = new_salary
         print(f'Salary updated to ${self.salary}.')
 
