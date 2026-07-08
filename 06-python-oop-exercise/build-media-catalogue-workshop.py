@@ -17,8 +17,10 @@ class Movie:
 
     def __str__(self):
         return f'{self.title} ({self.year}) - {self.duration} min, {self.director}'
+
 class TVSeries(Movie):
-    """Child class representing an entire TV series."""    
+    """Child class representing an entire TV series."""
+
     def __init__(self, title, year, director, duration, seasons, total_episodes):
         super().__init__(title, year, director, duration)
 
@@ -32,8 +34,9 @@ class TVSeries(Movie):
 
     def __str__(self):
         return f'{self.title} ({self.year}) - {self.seasons} seasons, {self.total_episodes} episodes, {self.duration} min avg, {self.director}'
-
 class MediaCatalogue:
+    """A catalogue that can store different types of media items."""
+    
     def __init__(self):
         self.items = []
 
