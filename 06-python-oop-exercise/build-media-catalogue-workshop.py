@@ -26,6 +26,10 @@ class MediaCatalogue:
         if not self.items:
             return 'Media Catalogue (empty)'
         result = f'Media Catalogue ({len(self.items)} items):\n\n'
+        for i, movie in enumerate(self.items, start=1):
+            result += f'{i}. {movie}\n'
+            
+        return result
         
 try:
     movie1 = Movie('The Matrix', 1999, 'The Wachowskis', 136)
