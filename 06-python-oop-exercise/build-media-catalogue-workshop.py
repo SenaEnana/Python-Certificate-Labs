@@ -1,6 +1,6 @@
 class Movie:
     """Parent class representing a movie."""
-
+    
     def __init__(self, title, year, director, duration):
         if not title.strip():
             raise ValueError('Title cannot be empty')
@@ -17,8 +17,8 @@ class Movie:
 
     def __str__(self):
         return f'{self.title} ({self.year}) - {self.duration} min, {self.director}'
-
 class TVSeries(Movie):
+    """Child class representing an entire TV series."""    
     def __init__(self, title, year, director, duration, seasons, total_episodes):
         super().__init__(title, year, director, duration)
 
@@ -66,5 +66,6 @@ try:
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
+
 print(movie1.__doc__)
 print(series1.__doc__)
