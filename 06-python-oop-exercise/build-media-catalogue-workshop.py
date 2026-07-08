@@ -16,8 +16,10 @@ class Movie:
     def __str__(self):
         return f'{self.title} ({self.year}) - {self.duration} min, {self.director}'
 class TVSeries(Movie):
-    pass
-
+    def __init__(self, title, year, director, duration, seasons, total_episodes):
+        self.seasons = seasons
+        self.total_episodes = total_episodes
+        
 class MediaCatalogue:
     def __init__(self):
         self.items = []
