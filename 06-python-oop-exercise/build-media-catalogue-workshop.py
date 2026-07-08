@@ -68,9 +68,9 @@ class MediaCatalogue:
 
         result = f'Media Catalogue ({len(self.items)} items):\n\n'
         if movies:
-            result += '=== MOVIES ===\n'        
-        for i, movie in enumerate(self.items, 1):
-            result += f'{i}. {movie}\n'
+            result += '=== MOVIES ===\n'
+            for i, movie in enumerate(movies, 1):
+                result += f'{i}. {movie}\n'
         return result
 
 catalogue = MediaCatalogue()
