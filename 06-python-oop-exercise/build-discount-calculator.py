@@ -39,10 +39,10 @@ class FixedAmountDiscount(DiscountStrategy):
 
 class PremiumUserDiscount(DiscountStrategy):
     def is_applicable(self, product: Product, user_tier: str) -> bool:
-        if user_tier.lower() == 'premium':
-            return True
-        else:
-            return False   
+        return user_tier.lower() == 'premium'
+    def apply_discount(self, product: Product) -> float:
+        return product.price * 0.8
+    
 product = Product('Wireless Mouse', 50.0)
 print(product)
 
