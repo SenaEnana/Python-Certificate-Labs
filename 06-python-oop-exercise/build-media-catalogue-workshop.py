@@ -66,6 +66,3 @@ try:
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
-
-print(movie1.__doc__)
-print(series1.__doc__)
