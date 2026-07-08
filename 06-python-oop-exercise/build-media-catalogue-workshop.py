@@ -15,6 +15,8 @@ class Movie:
 
     def __str__(self):
         return f'{self.title} ({self.year}) - {self.duration} min, {self.director}'
+class TVSeries(Movie):
+    pass
 
 class MediaCatalogue:
     def __init__(self):
@@ -37,10 +39,9 @@ catalogue = MediaCatalogue()
 
 try:
     movie1 = Movie('The Matrix', 1999, 'The Wachowskis', 136)
-    movie2 = Movie('Interstellar', 2013, 'Christopher Nolan', 169)
     catalogue.add(movie1)
+    movie2 = Movie('Inception', 2010, 'Christopher Nolan', 148)
     catalogue.add(movie2)
-    
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
