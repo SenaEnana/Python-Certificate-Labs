@@ -18,8 +18,12 @@ class DiscountStrategy(ABC):
         pass
 
 class PercentageDiscount(DiscountStrategy):
-    def __init__(self, percent: int)-> None:
+    def __init__(self, percent: int) -> None:
         self.percent = percent
-
+    def is_applicable(self, product: Product, user_tier: str) -> bool:
+        if self.percent <= 70:
+            return True
+        else:
+            return False    
 product = Product('Wireless Mouse', 50.0)
 print(product)
