@@ -10,7 +10,7 @@ class Product:
 
 class DiscountStrategy(ABC):
     @abstractmethod
-    def is_applicable(self, product: Product, user_tier: str):
+    def is_applicable(self, product: Product, user_tier: str) -> bool:
         pass
 product = Product('Wireless Mouse', 50.0)
 print(product)
