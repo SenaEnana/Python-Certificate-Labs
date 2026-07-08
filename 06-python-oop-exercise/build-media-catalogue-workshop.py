@@ -1,5 +1,6 @@
 class MediaError(Exception):
     """Custom exception for media-related errors."""
+
     def __init__(self, message, obj):
         super().__init__(message)
         self.obj = obj
@@ -49,7 +50,7 @@ class MediaCatalogue:
 
     def add(self, media_item):
         if not isinstance(media_item, Movie):
-            raise TypeError('Only Movie or TVSeries instances can be added')
+            raise MediaError('Only Movie or TVSeries instances can be added', media_item)
         self.items.append(media_item)
 
     def __str__(self):
@@ -74,7 +75,7 @@ try:
     catalogue.add(series1)
     series2 = TVSeries('Breaking Bad', 2008, 'Vince Gilligan', 47, 5, 62)
     catalogue.add(series2)
-
+    
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
