@@ -1,7 +1,6 @@
 # Questions
 
-# What is the primary goal of abstraction in object-oriented programming?
-
+#1 What is the primary goal of abstraction in object-oriented programming?
 
 # To expose all internal implementation details to users.
 
@@ -13,8 +12,7 @@
 
 # How does Python implement abstraction through its ABC module?
 
-
-# By allowing direct instantiation of abstract classes.
+#2 By allowing direct instantiation of abstract classes.
 
 # By using decorators and inheritance to define abstract methods that subclasses must implement.
 
@@ -22,8 +20,7 @@
 
 # By converting classes to functions.
 
-# In the car analogy for abstraction, what represents the simplified interface and the complex system?
-
+#3 In the car analogy for abstraction, what represents the simplified interface and the complex system?
 
 # The interface is the engine pistons, and the complex system is the steering wheel.
 
