@@ -32,11 +32,15 @@ class MediaCatalogue:
         for i, movie in enumerate(self.items, 1):
             result += f'{i}. {movie}\n'
         return result
+
 catalogue = MediaCatalogue()
 
 try:
     movie1 = Movie('The Matrix', 1999, 'The Wachowskis', 136)
+    movie2 = Movie('Interstellar', 2013, 'Christopher Nolan', 169)
     catalogue.add(movie1)
+    catalogue.add(movie2)
+    
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
