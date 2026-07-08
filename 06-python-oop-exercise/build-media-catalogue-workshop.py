@@ -66,11 +66,16 @@ class MediaCatalogue:
         movies = self.get_movies()
         series = self.get_tv_series()
 
-        result = f'Media Catalogue ({len(self.items)} items):\n\n'
+        result = f'Media Catalogue ({len(self.items)} items):\n\n'         
         if movies:
             result += '=== MOVIES ===\n'
             for i, movie in enumerate(movies, 1):
                 result += f'{i}. {movie}\n'
+        if series:
+            result += '=== TV SERIES ===\n'
+            for i, movie in enumerate(series, 1):
+                result += f'{i}. {movie}\n' 
+        
         return result
 
 catalogue = MediaCatalogue()
