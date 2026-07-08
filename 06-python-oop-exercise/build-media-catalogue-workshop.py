@@ -1,4 +1,13 @@
+class MediaError(Exception):
+    """Custom exception for media-related errors."""
+
+    def __init__(self, message, obj):
+        super().__init__(message)
+        self.obj = obj
+
 class Movie:
+    """Parent class representing a movie."""
+    
     def __init__(self, title, year, director, duration):
         if not title.strip():
             raise ValueError('Title cannot be empty')
@@ -17,6 +26,8 @@ class Movie:
         return f'{self.title} ({self.year}) - {self.duration} min, {self.director}'
 
 class TVSeries(Movie):
+    """Child class representing an entire TV series."""
+
     def __init__(self, title, year, director, duration, seasons, total_episodes):
         super().__init__(title, year, director, duration)
 
@@ -28,12 +39,18 @@ class TVSeries(Movie):
         self.seasons = seasons
         self.total_episodes = total_episodes
 
+    def __str__(self):
+        return f'{self.title} ({self.year}) - {self.seasons} seasons, {self.total_episodes} episodes, {self.duration} min avg, {self.director}'
 
 class MediaCatalogue:
+    """A catalogue that can store different types of media items."""
+
     def __init__(self):
         self.items = []
 
     def add(self, media_item):
+        if not isinstance(media_item, Movie):
+            raise MediaError('Only Movie or TVSeries instances can be added', media_item)
         self.items.append(media_item)
 
     def __str__(self):
@@ -47,14 +64,20 @@ class MediaCatalogue:
         return result
 
 catalogue = MediaCatalogue()
+
 try:
     movie1 = Movie('The Matrix', 1999, 'The Wachowskis', 136)
     catalogue.add(movie1)
     movie2 = Movie('Inception', 2010, 'Christopher Nolan', 148)
     catalogue.add(movie2)
-    series1 = TVSeries('Friends', 1994, ' Gary Halvorson, Kevin S. Bright, Michael Lembeck, and James Burrows', 20, 10, 236)
 
-    print(series1)
+    series1 = TVSeries('Scrubs', 2001, 'Bill Lawrence', 24, 9, 182)
+    catalogue.add(series1)
+    series2 = TVSeries('Breaking Bad', 2008, 'Vince Gilligan', 47, 5, 62)
+    catalogue.add(series2)
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
+except MediaError as e:
+    print(f'Media Error: {e}')
+    print(f'Unable to add {e.obj}: {type(e.obj)}')
