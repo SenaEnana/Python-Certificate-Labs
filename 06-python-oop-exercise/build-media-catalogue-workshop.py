@@ -34,15 +34,17 @@ class TVSeries(Movie):
 
     def __str__(self):
         return f'{self.title} ({self.year}) - {self.seasons} seasons, {self.total_episodes} episodes, {self.duration} min avg, {self.director}'
+
 class MediaCatalogue:
     """A catalogue that can store different types of media items."""
-    
+
     def __init__(self):
         self.items = []
-
     def add(self, media_item):
+        if not isinstance(media_item, Movie):
+            raise TypeError('Only Movie or TVSeries instances can be added')
+        
         self.items.append(media_item)
-
     def __str__(self):
         if not self.items:
             return 'Media Catalogue (empty)'
