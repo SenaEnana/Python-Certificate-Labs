@@ -15,6 +15,11 @@ class DiscountStrategy(ABC):
 
     @abstractmethod
     def apply_discount(self, product: Product) -> float:
-        pass   
+        pass
+
+class PercentageDiscount(DiscountStrategy):
+    def __init__(self, percent: int)-> None:
+        self.percent = percent
+
 product = Product('Wireless Mouse', 50.0)
 print(product)
