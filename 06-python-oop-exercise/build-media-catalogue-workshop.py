@@ -19,13 +19,16 @@ class Movie:
 class TVSeries(Movie):
     def __init__(self, title, year, director, duration, seasons, total_episodes):
         super().__init__(title, year, director, duration)
+
         if seasons < 1:
             raise ValueError('Seasons must be 1 or greater')
         if total_episodes < 1:
-            raise ValueError('Total episodes must be 1 or greater')        
-
+            raise ValueError('Total episodes must be 1 or greater')
+        
         self.seasons = seasons
         self.total_episodes = total_episodes
+
+
 class MediaCatalogue:
     def __init__(self):
         self.items = []
@@ -44,12 +47,14 @@ class MediaCatalogue:
         return result
 
 catalogue = MediaCatalogue()
-
 try:
     movie1 = Movie('The Matrix', 1999, 'The Wachowskis', 136)
     catalogue.add(movie1)
     movie2 = Movie('Inception', 2010, 'Christopher Nolan', 148)
     catalogue.add(movie2)
+    series1 = TVSeries('Friends', 1994, ' Gary Halvorson, Kevin S. Bright, Michael Lembeck, and James Burrows', 20, 10, 236)
+
+    print(series1)
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
