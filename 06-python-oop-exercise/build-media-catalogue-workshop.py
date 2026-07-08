@@ -1,3 +1,5 @@
+class MediaError(Exception):
+    """Custom exception for media-related errors."""
 class Movie:
     """Parent class representing a movie."""
     
@@ -40,11 +42,12 @@ class MediaCatalogue:
 
     def __init__(self):
         self.items = []
+
     def add(self, media_item):
         if not isinstance(media_item, Movie):
             raise TypeError('Only Movie or TVSeries instances can be added')
-        
         self.items.append(media_item)
+
     def __str__(self):
         if not self.items:
             return 'Media Catalogue (empty)'
