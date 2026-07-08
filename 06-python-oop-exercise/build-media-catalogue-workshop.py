@@ -47,14 +47,14 @@ class MediaCatalogue:
         return result
 
 catalogue = MediaCatalogue()
+
+
 try:
     movie1 = Movie('The Matrix', 1999, 'The Wachowskis', 136)
     catalogue.add(movie1)
     movie2 = Movie('Inception', 2010, 'Christopher Nolan', 148)
     catalogue.add(movie2)
-    series1 = TVSeries('Friends', 1994, ' Gary Halvorson, Kevin S. Bright, Michael Lembeck, and James Burrows', 20, 10, 236)
-
-    print(series1)
+    series1 = TVSeries('Scrubs', 2001, 'Bill Lawrence', 24, 9, 182)
     print(catalogue)
 except ValueError as e:
     print(f'Validation Error: {e}')
