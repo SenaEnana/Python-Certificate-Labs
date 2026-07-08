@@ -15,9 +15,15 @@ class Movie:
 
     def __str__(self):
         return f'{self.title} ({self.year}) - {self.duration} min, {self.director}'
+
 class TVSeries(Movie):
     def __init__(self, title, year, director, duration, seasons, total_episodes):
-        super(). __init__(title, year, director, duration)
+        super().__init__(title, year, director, duration)
+        if seasons < 1:
+            raise ValueError('Seasons must be 1 or greater')
+        if total_episodes < 1:
+            raise ValueError('Total episodes must be 1 or greater')        
+
         self.seasons = seasons
         self.total_episodes = total_episodes
 class MediaCatalogue:
