@@ -17,9 +17,9 @@ class Movie:
         return f'{self.title} ({self.year}) - {self.duration} min, {self.director}'
 class TVSeries(Movie):
     def __init__(self, title, year, director, duration, seasons, total_episodes):
+        super(). __init__(title, year, director, duration)
         self.seasons = seasons
         self.total_episodes = total_episodes
-        
 class MediaCatalogue:
     def __init__(self):
         self.items = []
