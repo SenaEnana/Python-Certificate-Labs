@@ -151,4 +151,4 @@
 # To automatically log every value change.
 # To make code longer and more explicit.
 # To prevent access to the value entirely.
-# To allow direct attribute-like access with dot notation for better readability.
+# To allow direct attribute-like access with dot notation for better readability.///correct
