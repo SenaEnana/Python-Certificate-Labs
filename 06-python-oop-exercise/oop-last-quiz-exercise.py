@@ -3,12 +3,12 @@
 # Loops
 # Variables
 # Functions
-# Classes
+# Classes////correct answer
 
 # 2.Which module does Python use to implement abstract classes?
 
 # Random
-# abc
+# abc////correct answer
 # Time
 # xyz
 
@@ -17,25 +17,25 @@
 # Variables and loops.
 # Functions and classes.
 # Seeders and databases.
-# Attributes and methods.
+# Attributes and methods.////correct answer
 
 # 4.What is single inheritance?
 
 # A child class inheriting attributes and methods from a single function.
 # A child class inheriting attributes and methods from multiple functions.
 # A child class inheriting attributes and methods from multiple classes.
-# A child class inheriting attributes and methods from a single class.
+# A child class inheriting attributes and methods from a single class.////correct answer
 
 # 5.Which of the following is NOT one of the key principles of object-oriented programming?
 
 # Inheritance
 # Abstraction
-# Don't repeat yourself (DRY)
+# Don't repeat yourself (DRY)////correct answer
 # Encapsulation
 
 # 6.What is the difference between prefixing attributes and methods with a double underscore and single underscore?
 
-# Single underscore is just a convention for internal use, double underscore triggers name mangling to prevent accidental attribute and method overriding.
+# Single underscore is just a convention for internal use, double underscore triggers name mangling to prevent accidental attribute and method overriding.////correct answer
 # Single underscore means private, double underscore means protected.
 # Single underscore makes them public, double underscore makes them static.
 # Single underscore hides the attribute completely, double underscore makes it readable only inside methods.
