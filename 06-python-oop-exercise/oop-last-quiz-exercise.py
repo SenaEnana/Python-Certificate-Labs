@@ -115,13 +115,13 @@
 
 # Functions
 # Classes
-# Properties
+# Properties///correct
 # Methods
 
 # 16.What is the process by which Python internally renames an attribute prefixed with a double underscore by adding an underscore and the class name as a prefix?
 
 # Polymorphism
-# Name Mangling
+# Name Mangling////correct
 # Name Mingling
 # Abstraction
 
