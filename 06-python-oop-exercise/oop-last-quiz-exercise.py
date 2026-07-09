@@ -127,7 +127,7 @@
 
 # 17.Which function lets you invoke a method from a parent inside a child class?
 
-# super()
+# super()////correct
 # __init__()
 # constructor()
 # property()
