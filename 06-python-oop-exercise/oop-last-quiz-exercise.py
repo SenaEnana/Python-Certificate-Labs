@@ -95,17 +95,20 @@
 #     pass
 # class Child(InheritParent):
 #     pass
+
 # class Parent:
 #     pass
 # class Child(Inheriter):
 #     pass
+
 # class Child:
 #    pass
 # class Parent(Parent):
 #    pass
+
 # class Parent:
 #    pass
-# class Child(Parent):
+# class Child(Parent):////correct answer
 #    pass
 
 # 15.What connects setters and getters?
