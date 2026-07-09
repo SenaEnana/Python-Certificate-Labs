@@ -34,7 +34,6 @@ class Square(Rectangle):
     """A class representing a square shape, inheriting from Rectangle."""
 
     def __init__(self, side: int) -> None:
-        # A square has equal width and height initialized by its side length
         super().__init__(side, side)
 
     def set_side(self, side: int) -> None:
