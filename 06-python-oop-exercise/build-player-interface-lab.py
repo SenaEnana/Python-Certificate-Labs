@@ -11,7 +11,6 @@ class Player(abc.ABC):
         self.path = [self.position]
 
     def make_move(self):
-        # Select a random move from the available moves
         selected_move = random.choice(self.moves)
 
         new_x = self.position[0] + selected_move[0]
