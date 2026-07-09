@@ -12,6 +12,9 @@ class Rectangle:
         return self.width * self.height
     def get_perimeter(self) -> int:
         return 2 * (self.width + self.height)
+    def get_diagonal(self) -> float:
+        # Calculates diagonal using the Pythagorean theorem: (width² + height²)**0.5
+        return (self.width**2 + self.height**2) ** 0.5
 
 
 
