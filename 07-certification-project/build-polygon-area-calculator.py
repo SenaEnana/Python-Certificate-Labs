@@ -6,6 +6,8 @@ class Rectangle:
         self.height = height
     def set_width(self, width: int) -> None:
         self.width = width
+    def set_height(self, height: int) -> None:
+        self.height = height
 
 
 
