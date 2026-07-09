@@ -19,8 +19,6 @@ class Player(abc.ABC):
         new_y = self.position[1] + selected_move[1]
         self.position = (new_x, new_y)
 
-
-        # Append the new position to the path tracking list
         self.path.append(self.position)
 
         return self.position
