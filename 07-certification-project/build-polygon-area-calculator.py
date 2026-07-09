@@ -30,9 +30,8 @@ class Rectangle:
     def __str__(self) -> str:
         return f"Rectangle(width={self.width}, height={self.height})"
 
-
-
-
+class Square(Rectangle):
+    """A class representing a square shape, inheriting from Rectangle."""
 
 
 
