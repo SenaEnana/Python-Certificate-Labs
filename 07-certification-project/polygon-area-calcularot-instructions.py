@@ -4,11 +4,8 @@
 # Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
 
 # User Stories:
-
 # You should create a Rectangle class.
-
 # When a Rectangle object is created, it should be initialized with width and height attributes. The class should also contain the following methods:
-
 # set_width: Sets the width of the rectangle.
 # set_height: Sets the height of the rectangle.
 # get_area: Returns area ( width×height
@@ -20,18 +17,13 @@
 # get_picture: Returns a string that represents the shape using lines of *. The number of lines should be equal to the height and the number of * in each line should be equal to the width. There should be a new line (\n) at the end of each line. If the width or height is larger than 50, this should return the string: Too big for picture..
 # get_amount_inside: Takes another shape (square or rectangle) as an argument. Returns the number of times the passed in shape could fit inside the shape (with no rotations). For instance, a rectangle with a width of 4 and a height of 8 could fit in two squares with sides of 4.
 # If an instance of a Rectangle is represented as a string, it should look like: Rectangle(width=5, height=10).
-
 # You should create a Square class that subclasses Rectangle.
-
 # When a Square object is created, it should be initialized with a single side length. The __init__ method should store the side length in both the width and height attributes from the Rectangle class.
-
 # The Square class should contain the following methods:
-
 # set_width: Overrides the set_width method from the Rectangle class. It should set the width and height to the side length.
 # set_height: Overrides the set_height method from the Rectangle class. It should set the width and height to the side length.
 # set_side: Sets the height and width of the square equal to the side length.
 # The Square class should be able to access the Rectangle class methods.
-
 # If an instance of a Square is represented as a string, it should look like: Square(side=9).
 
 # Usage example
