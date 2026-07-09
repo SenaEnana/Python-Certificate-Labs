@@ -37,6 +37,10 @@ class Square(Rectangle):
         # A square has equal width and height initialized by its side length
         super().__init__(side, side)
 
+    def set_side(self, side: int) -> None:
+        self.width = side
+        self.height = side
+
 
 
 
