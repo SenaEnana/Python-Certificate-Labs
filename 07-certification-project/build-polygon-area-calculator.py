@@ -15,6 +15,9 @@ class Rectangle:
     def get_diagonal(self) -> float:
         # Calculates diagonal using the Pythagorean theorem: (width² + height²)**0.5
         return (self.width**2 + self.height**2) ** 0.5
+    def get_picture(self) -> str:
+        if self.width > 50 or self.height > 50:
+            return "Too big for picture."
 
 
 
