@@ -18,6 +18,8 @@ class Rectangle:
     def get_picture(self) -> str:
         if self.width > 50 or self.height > 50:
             return "Too big for picture."
+        # Creates a row of '*' with a newline, repeated 'height' times
+        return ("*" * self.width + "\n") * self.height
 
 
 
