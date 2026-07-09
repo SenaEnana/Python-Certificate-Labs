@@ -44,33 +44,33 @@
 
 # Inheritance
 # Polymorphism
-# Abstraction
+# Abstraction///correct answer
 # Encapsulation
 
 # 8.Which decorator do you use to create a setter?
 
 # @<property_name>.creator
 # @<method_name>.creator
-# @<property_name>.setter
+# @<property_name>.setter////correct answer
 # @<method_name>.creater
 
 # 9.Which OOP concept lets you hide the internal state of the object behind a set of public methods and attributes that act like doors?
 
 # Abstraction
 # Single inheritance
-# Encapsulation
+# Encapsulation////correct answer
 # Polymorphism
 
 # 10.What is a getter?
 
-# A method that retrieves or returns the value of an attribute.
+# A method that retrieves or returns the value of an attribute.////correct answer
 # A method that creates a new attribute in an object.
 # A method that updates or changes the value of an attribute.
 # A method that deletes an attribute from an object.
 
 # 11.What is a setter?
 
-# A method that sets or updates the value of an attribute.
+# A method that sets or updates the value of an attribute.////correct answer
 # A method that deletes the value of an attribute.
 # A method that retrieves the value of an attribute.
 # A method that deletes an attribute from an object.
@@ -79,12 +79,12 @@
 
 # Delayer
 # Remover
-# Deleter
+# Deleter////correct answer
 # Eraser
 
 # 13.What promotes code reuse, provides clear hierarchies, and allows customization of behavior without rewriting everything?
 
-# Inheritance
+# Inheritance////correct answer
 # Abstraction
 # DRY
 # WET
