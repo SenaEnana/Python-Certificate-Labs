@@ -27,6 +27,9 @@ class Rectangle:
         rows_fit = self.height // shape.height
         return cols_fit * rows_fit
 
+    def __str__(self) -> str:
+        return f"Rectangle(width={self.width}, height={self.height})"
+
 
 
 
