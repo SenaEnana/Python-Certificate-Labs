@@ -24,3 +24,7 @@ class Player(abc.ABC):
         self.path.append(self.position)
 
         return self.position
+    
+    @abc.abstractmethod
+    def level_up(self) -> None:
+        pass
