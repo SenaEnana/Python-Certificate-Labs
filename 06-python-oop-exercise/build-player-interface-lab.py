@@ -1,6 +1,7 @@
 import abc
 import random
 
+
 class Player(abc.ABC):
     """An abstract class representing a game player."""
 
@@ -8,3 +9,7 @@ class Player(abc.ABC):
         self.moves = []
         self.position = (0, 0)
         self.path = [self.position]
+
+    def make_move(self):
+        # Select a random move from the available moves
+        selected_move = random.choice(self.moves)
