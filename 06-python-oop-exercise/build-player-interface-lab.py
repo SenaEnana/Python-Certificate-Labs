@@ -28,3 +28,12 @@ class Player(abc.ABC):
     @abc.abstractmethod
     def level_up(self) -> None:
         pass
+
+class Pawn(Player):
+    """A concrete implementation of Player representing a Pawn."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        # 1 unit moves in orthogonal directions: (x, y)
+        # Up (0, 1), Down (0, -1), Left (-1, 0), Right (1, 0)
+        self.moves = [(0, 1), (0, -1), (-1, 0), (1, 0)]
