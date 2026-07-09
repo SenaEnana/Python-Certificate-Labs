@@ -40,6 +40,8 @@ class Square(Rectangle):
     def set_side(self, side: int) -> None:
         self.width = side
         self.height = side
+    def set_width(self, width: int) -> None:
+        self.set_side(width)
 
 
 
