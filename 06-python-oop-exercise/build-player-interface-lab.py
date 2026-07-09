@@ -14,7 +14,6 @@ class Player(abc.ABC):
         # Select a random move from the available moves
         selected_move = random.choice(self.moves)
 
-        # Update the position by adding the selected move coordinates
         new_x = self.position[0] + selected_move[0]
         new_y = self.position[1] + selected_move[1]
         self.position = (new_x, new_y)
