@@ -44,6 +44,10 @@ class Square(Rectangle):
     def set_height(self, height: int) -> None:
         self.set_side(height)
 
+    def __str__(self) -> str:
+        # The prompt specifies the width/height are synchronized as the side value
+        return f"Square(side={self.width})"
+
 
 
 
