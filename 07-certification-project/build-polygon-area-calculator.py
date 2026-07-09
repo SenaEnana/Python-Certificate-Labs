@@ -21,6 +21,12 @@ class Rectangle:
         # Creates a row of '*' with a newline, repeated 'height' times
         return ("*" * self.width + "\n") * self.height
 
+    def get_amount_inside(self, shape: "Rectangle") -> int:
+        # Calculates how many times the passed shape fits completely (no rotation)
+        cols_fit = self.width // shape.width
+        rows_fit = self.height // shape.height
+        return cols_fit * rows_fit
+
 
 
 
