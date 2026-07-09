@@ -137,12 +137,12 @@
 # It allows a class to inherit attributes and methods from another class.
 # It allows creating objects with the class keyword.
 # It allows a class to have multiple constructors with different attributes and methods.
-# It allows different classes to use the same method name while performing different actions when called.
+# It allows different classes to use the same method name while performing different actions when called.///correct
 
 # 19.Why does Python mangle the name of an attribute prefixed with double underscores?
 
 # To improve performance by storing attributes more efficiently.
-# To prevent accidental attribute and method overriding in subclasses when using inheritance.
+# To prevent accidental attribute and method overriding in subclasses when using inheritance.///correct
 # To make the attribute completely private and inaccessible from outside the class.
 # To automatically convert attributes into read-only properties.
 
