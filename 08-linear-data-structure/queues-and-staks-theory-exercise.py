@@ -12,7 +12,7 @@
 
 #2 Which operation is used to add an element to a stack?
 
-# push
+# push///correct
 
 # pop
 
