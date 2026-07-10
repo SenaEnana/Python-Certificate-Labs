@@ -34,3 +34,11 @@ class LinkedList:
             elements.append(str(current.data))
             current = current.next
         print(" -> ".join(elements) + " -> None")
+
+class ExerciseLinkedList(LinkedList):
+    def search(self, target):
+        current = self.head
+        # TODO: Loop through the list to find the target
+        # Hint: 'while current:' will let you look at every node
+        
+        return False # Placeholder
