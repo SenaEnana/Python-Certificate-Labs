@@ -1,3 +1,10 @@
+# Doubly Linked Lists
+# Now that you know more about singly linked lists, let's talk about doubly linked lists.
+
+# In a doubly linked list, each node stores two references: a reference to the next node and a reference to the previous node in the sequence.
+
+# This means that doubly linked lists can be traversed in both directions.
+
 # Questions
 
 #1 What is a linked list?
