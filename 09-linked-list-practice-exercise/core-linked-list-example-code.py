@@ -27,3 +27,11 @@ class LinkedList:
         # Link the last node to the new node
         current.next = new_node
 
+    def display(self):
+        """Print the entire linked list so we can see it."""
+        elements = []
+        current = self.head
+        while current:
+            elements.append(str(current.data))
+            current = current.next
+        print(" -> ".join(elements) + " -> None")
