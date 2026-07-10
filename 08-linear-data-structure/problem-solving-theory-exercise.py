@@ -16,7 +16,7 @@
 
 # To test the algorithm's performance and find bugs.
 
-# To outline the algorithm's logic in a human-readable, language-agnostic way.
+# To outline the algorithm's logic in a human-readable, language-agnostic way.///correct
 
 # To automatically generate the actual code for the solution.
 
