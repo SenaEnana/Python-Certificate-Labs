@@ -42,3 +42,6 @@ class ExerciseLinkedList(LinkedList):
         # Hint: 'while current:' will let you look at every node
         
         return False # Placeholder
+    def delete(self, target):
+        current = self.head
+        prev = None
