@@ -16,13 +16,13 @@
 
 # To count the total number of lines of code in an algorithm.
 
-# To describe how the resource usage of an algorithm grows as the input size increases.
+# To describe how the resource usage of an algorithm grows as the input size increases.///correct
 
 # To determine the best-case performance of an algorithm.
 
 #3 If an algorithm has a time complexity of O(n), what does this mean about its performance?
 
-# The algorithm's running time increases proportionally with the input size.
+# The algorithm's running time increases proportionally with the input size.///correct
 
 # The algorithm's running time remains constant regardless of the input size.
 
