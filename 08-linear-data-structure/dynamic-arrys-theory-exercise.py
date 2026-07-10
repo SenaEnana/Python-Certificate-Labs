@@ -28,4 +28,4 @@
 
 # When you require frequent insertions and deletions at arbitrary positions within the collection.
 
-# When the data size is fixed and known at the time the program is written.Questions
+# When the data size is fixed and known at the time the program is written.Questions///correct
