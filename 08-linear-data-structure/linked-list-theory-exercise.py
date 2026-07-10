@@ -33,6 +33,13 @@
 
 # This operation has linear time complexity, O(n), where n is the number of nodes stored in the linked list, because first you need to reach the end of the linked list to make the insertion and this would require going from one node to the next and so on until the end is reached.
 
+# Removing Nodes
+# Just as you can insert nodes, you can also remove them from the start, middle, and end of the linked list.
+
+# To remove a node from the start, you need to update the reference to the head node, which should be the next node in the sequence.
+
+# This operation has a constant time complexity O(1), because it only requires updating the linked list's reference to the head node.
+
 # Questions
 
 #1 What is a linked list?
