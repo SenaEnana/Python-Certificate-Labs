@@ -1,7 +1,6 @@
 # Questions
 
-# What is the fundamental difference in the type of data stored by a hash map (or map) compared to a set?
-
+#1 What is the fundamental difference in the type of data stored by a hash map (or map) compared to a set?
 
 # Hash maps store ordered collections, while Sets store unordered collections.
 
@@ -11,8 +10,7 @@
 
 # Sets are used for numerical data, while hash maps are for textual data.
 
-# What is the main mechanism that allows hash maps and Sets to achieve average-case O(1) (constant time) performance for operations like insertion and lookup?
-
+#2 What is the main mechanism that allows hash maps and Sets to achieve average-case O(1) (constant time) performance for operations like insertion and lookup?
 
 # They keep all elements sorted, enabling fast binary search.
 
@@ -22,8 +20,7 @@
 
 # They always store a very small number of elements, making all operations fast.
 
-# In the context of hash maps and sets, what is a "hash collision"?
-
+#3 In the context of hash maps and sets, what is a "hash collision"?
 
 # When an element is successfully found after a search.
 
