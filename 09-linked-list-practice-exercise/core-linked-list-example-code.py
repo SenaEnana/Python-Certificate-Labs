@@ -5,3 +5,9 @@ class Node:
         self.next = None  # Points to the next node (initially None)
 
 
+class LinkedList:
+    """The linked list wrapper class."""
+    def __init__(self):
+        self.head = None  # The first node in the list
+
+    
