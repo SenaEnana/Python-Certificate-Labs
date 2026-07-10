@@ -10,15 +10,7 @@
 
 # Guess a solution and then try to make it work.
 
-#2 What is the main purpose of writing pseudocode when solving an algorithmic challenge?
 
-# To write the final, executable version of the code.
-
-# To test the algorithm's performance and find bugs.
-
-# To outline the algorithm's logic in a human-readable, language-agnostic way.
-
-# To automatically generate the actual code for the solution.
 
 #3 Before writing the final code for an algorithmic challenge, why is it important to consider edge cases?
 
