@@ -20,12 +20,3 @@
 
 # To determine the best-case performance of an algorithm.
 
-#3 If an algorithm has a time complexity of O(n), what does this mean about its performance?
-
-# The algorithm's running time increases proportionally with the input size.
-
-# The algorithm's running time remains constant regardless of the input size.
-
-# The algorithm's running time grows exponentially with the input size.
-
-# The algorithm's running time decreases as the input size gets larger.
