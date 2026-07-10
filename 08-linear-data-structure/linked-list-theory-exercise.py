@@ -14,6 +14,17 @@
 
 # The search can only move forward, not backwards.
 
+# Inserting Nodes
+# One of the great things about linked lists is that they do not have a fixed size. They can be expanded or shrunk as needed by simply updating the connections between the nodes.
+
+# You can insert a node at the start, middle, and end of a linked list.
+
+# Linked lists don't necessarily need to store the nodes in a specific order. The order will be determined by the connections between the nodes.
+
+# However, if you do need to keep the nodes in a specific order for your particular use case, you can do so by implementing that logic in your code and the criteria you implement will determine if the node is inserted at the start, middle, or end.
+
+# To insert a node at the start of the linked list, you just need to create a connection between the new node and the node that used to be the head node and make the new node the head node instead.
+
 # Questions
 
 #1 What is a linked list?
