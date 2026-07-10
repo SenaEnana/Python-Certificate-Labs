@@ -14,7 +14,7 @@
 
 # The static array automatically expands its memory to fit the new elements.
 
-# You must create a new, larger array and copy all existing elements to it.
+# You must create a new, larger array and copy all existing elements to it.///correct
 
 # The array automatically converts itself into a dynamic array.
 
