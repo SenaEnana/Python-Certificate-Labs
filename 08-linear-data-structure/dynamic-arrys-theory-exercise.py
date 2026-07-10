@@ -1,7 +1,6 @@
 # Questions
 
-# What is the main difference in size between a static array and a dynamic array?
-
+#1 What is the main difference in size between a static array and a dynamic array?
 
 # Static arrays can change their size after being created, while dynamic arrays cannot.
 
@@ -11,8 +10,7 @@
 
 # Dynamic arrays are always larger than static arrays.
 
-# If you need to add more elements to a static array that is already full, what is the typical process involved?
-
+#2 If you need to add more elements to a static array that is already full, what is the typical process involved?
 
 # The static array automatically expands its memory to fit the new elements.
 
@@ -24,8 +22,7 @@
 
 # In which scenario would a static array typically be a more suitable choice than a dynamic array?
 
-
-# When the exact number of elements is unknown and changes frequently.
+#3 When the exact number of elements is unknown and changes frequently.
 
 # When you need to store a very large dataset that might grow indefinitely.
 
@@ -33,8 +30,7 @@
 
 # When the data size is fixed and known at the time the program is written.Questions
 
-# What is the main difference in size between a static array and a dynamic array?
-
+#4 What is the main difference in size between a static array and a dynamic array?
 
 # Static arrays can change their size after being created, while dynamic arrays cannot.
 
@@ -44,8 +40,7 @@
 
 # Dynamic arrays are always larger than static arrays.
 
-# If you need to add more elements to a static array that is already full, what is the typical process involved?
-
+#5 If you need to add more elements to a static array that is already full, what is the typical process involved?
 
 # The static array automatically expands its memory to fit the new elements.
 
