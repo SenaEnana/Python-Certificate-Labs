@@ -54,3 +54,10 @@ class ExerciseLinkedList(LinkedList):
             return
             
         # TODO:
+
+# Testing implementation
+ll = ExerciseLinkedList()
+ll.append(10)
+ll.append(20)
+ll.append(30)
+
