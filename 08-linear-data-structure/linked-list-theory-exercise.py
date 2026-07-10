@@ -1,14 +1,5 @@
 # Questions
 
-#1 What is a linked list?
-
-# A data structure that stores elements in a contiguous block of memory.
-
-# A data structure where nodes are connected using references.///correct
-
-# A data structure that is always sorted.
-
-# A data structure that has a fixed size.
 
 #2 What is the difference between a singly linked list and a doubly linked list?
 
