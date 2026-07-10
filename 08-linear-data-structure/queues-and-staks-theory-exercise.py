@@ -2,7 +2,7 @@
 
 #1 What is the primary difference between a stack and a queue?
 
-# Stacks are LIFO, while queues are FIFO.
+# Stacks are LIFO, while queues are FIFO.///correct
 
 # Stacks are FIFO, while queues are LIFO.
 
