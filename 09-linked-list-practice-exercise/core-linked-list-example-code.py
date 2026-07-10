@@ -17,8 +17,7 @@ class LinkedList:
         # If the list is empty, make the new node the head
         if not self.head:
             self.head = new_node
-            return
-        
+            return      
         # Otherwise, traverse to the end of the list
         current = self.head
         while current.next:
