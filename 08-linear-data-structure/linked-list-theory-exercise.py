@@ -22,7 +22,7 @@
 
 #3 What is the time complexity of inserting a node at the beginning of a singly linked list?
 
-# O(1)
+# O(1)///correct
 
 # O(n)
 
