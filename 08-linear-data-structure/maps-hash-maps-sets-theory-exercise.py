@@ -16,7 +16,7 @@
 
 # They store elements in a linked list, allowing quick traversal.
 
-# They use a hash function to compute a direct memory location for elements.
+# They use a hash function to compute a direct memory location for elements.///correct
 
 # They always store a very small number of elements, making all operations fast.
 
