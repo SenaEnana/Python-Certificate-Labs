@@ -14,7 +14,7 @@
 
 # Singly linked lists have a head and tail node, while doubly linked lists do not.
 
-# Singly linked lists can only be traversed in one direction, while doubly linked lists can be traversed in both directions.
+# Singly linked lists can only be traversed in one direction, while doubly linked lists can be traversed in both directions.///correct
 
 # Singly linked lists are more efficient to insert elements at the end, while doubly linked lists are more efficient to insert elements at the beginning.
 
