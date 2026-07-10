@@ -4,7 +4,7 @@
 
 # Static arrays can change their size after being created, while dynamic arrays cannot.
 
-# Static arrays have a fixed size, while dynamic arrays can change size during runtime.
+# Static arrays have a fixed size, while dynamic arrays can change size during runtime.///correct
 
 # There is no practical difference in how their sizes are handled.
 
