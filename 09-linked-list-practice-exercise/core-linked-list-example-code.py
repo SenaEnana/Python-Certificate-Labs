@@ -24,3 +24,6 @@ class LinkedList:
         while current.next:
             current = current.next
         
+        # Link the last node to the new node
+        current.next = new_node
+
