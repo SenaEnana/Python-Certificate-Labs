@@ -4,7 +4,7 @@
 
 # A data structure that stores elements in a contiguous block of memory.
 
-# A data structure where nodes are connected using references.
+# A data structure where nodes are connected using references.///correct
 
 # A data structure that is always sorted.
 
