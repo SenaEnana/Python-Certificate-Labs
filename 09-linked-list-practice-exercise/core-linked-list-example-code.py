@@ -10,4 +10,6 @@ class LinkedList:
     def __init__(self):
         self.head = None  # The first node in the list
 
-    
+    def append(self, data):
+        """Add a new node to the end of the list."""
+        new_node = Node(data)
