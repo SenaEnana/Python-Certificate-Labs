@@ -1,7 +1,6 @@
 # Questions
 
-# Which of the following best describes an algorithm?
-
+#1 Which of the following best describes an algorithm?
 
 # A specific programming language used to write code.
 
@@ -11,10 +10,9 @@
 
 # A software application used for developing and playing games.
 
-# What is the primary purpose of Big O notation in the context of algorithms?
+#2 What is the primary purpose of Big O notation in the context of algorithms?
 
-
-# To measure the exact time an algorithm takes to run on a specific computer in seconds.
+#To measure the exact time an algorithm takes to run on a specific computer in seconds.
 
 # To count the total number of lines of code in an algorithm.
 
@@ -22,8 +20,7 @@
 
 # To determine the best-case performance of an algorithm.
 
-# If an algorithm has a time complexity of O(n), what does this mean about its performance?
-
+#3 If an algorithm has a time complexity of O(n), what does this mean about its performance?
 
 # The algorithm's running time increases proportionally with the input size.
 
