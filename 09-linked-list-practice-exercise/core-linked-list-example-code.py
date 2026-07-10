@@ -64,3 +64,7 @@ ll.append(30)
 print("Original List:")
 ll.display() # Output should be: 10 -> 20 -> 30 -> None
 
+# Test Search
+print("\nSearching for 20:", ll.search(20)) # Should be True
+print("Searching for 99:", ll.search(99)) # Should be False
+
