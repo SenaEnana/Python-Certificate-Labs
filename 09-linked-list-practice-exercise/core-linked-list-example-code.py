@@ -45,3 +45,21 @@ class ExerciseLinkedList(LinkedList):
     def delete(self, target):
         current = self.head
         prev = None
+
+       # Case 1: The list is empty
+        if not current:
+            return
+            
+        # Case 2: The head node itself holds the key to be deleted
+        if current.data == target:
+            self.head = current.next
+            return
+            
+        # Case 3: Search for the key to be deleted, keeping track of the previous node
+        # TODO: Implement the loop to find the node and update 'prev' and 'current'
+        
+        # If the target wasn't found
+        if not current:
+            return
+            
+        # TODO: Unlink the node from linked list (connect prev.next to current.next)
