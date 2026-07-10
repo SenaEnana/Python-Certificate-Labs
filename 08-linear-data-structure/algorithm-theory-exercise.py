@@ -10,7 +10,15 @@
 
 # A software application used for developing and playing games.
 
+#2 What is the primary purpose of Big O notation in the context of algorithms?
 
+#To measure the exact time an algorithm takes to run on a specific computer in seconds.
+
+# To count the total number of lines of code in an algorithm.
+
+# To describe how the resource usage of an algorithm grows as the input size increases.
+
+# To determine the best-case performance of an algorithm.
 
 #3 If an algorithm has a time complexity of O(n), what does this mean about its performance?
 
