@@ -68,3 +68,7 @@ ll.display() # Output should be: 10 -> 20 -> 30 -> None
 print("\nSearching for 20:", ll.search(20)) # Should be True
 print("Searching for 99:", ll.search(99)) # Should be False
 
+# Test Delete
+ll.delete(20)
+print("\nList after deleting 20:")
+ll.display() # Output should be: 10 -> 30 -> None
