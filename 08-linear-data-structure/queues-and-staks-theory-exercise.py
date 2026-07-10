@@ -1,7 +1,6 @@
 # Questions
 
-# What is the primary difference between a stack and a queue?
-
+#1 What is the primary difference between a stack and a queue?
 
 # Stacks are LIFO, while queues are FIFO.
 
@@ -11,8 +10,7 @@
 
 # There is no difference between stacks and queues.
 
-# Which operation is used to add an element to a stack?
-
+#2 Which operation is used to add an element to a stack?
 
 # push
 
@@ -22,8 +20,7 @@
 
 # dequeue
 
-# Which operation is used to remove an element from a queue?
-
+#3 Which operation is used to remove an element from a queue?
 
 # push
 
