@@ -5,6 +5,15 @@
 
 # This means that doubly linked lists can be traversed in both directions.
 
+# Singly Linked Lists
+# A singly linked list is a type of linked list in which each node is connected to the next node in the sequence.
+
+# Each node is connected to the next one by storing a reference to it.
+
+# This single reference per node allows you to traverse the linked list in one direction, from start to end.
+
+# The search can only move forward, not backwards.
+
 # Questions
 
 #1 What is a linked list?
