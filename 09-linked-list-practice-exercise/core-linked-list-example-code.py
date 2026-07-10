@@ -13,3 +13,4 @@ class LinkedList:
     def append(self, data):
         """Add a new node to the end of the list."""
         new_node = Node(data)
+        
