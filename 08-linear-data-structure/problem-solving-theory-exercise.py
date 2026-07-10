@@ -1,14 +1,6 @@
 # Questions
 
-#1 Which of the following is the most important first step when approaching any problem-solving challenge?
 
-# Understand the problem statement, inputs, and constraints.
-
-# Search for existing solutions online.
-
-# Immediately start writing code.
-
-# Guess a solution and then try to make it work.
 
 #2 What is the main purpose of writing pseudocode when solving an algorithmic challenge?
 
