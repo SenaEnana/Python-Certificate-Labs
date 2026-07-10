@@ -4,7 +4,7 @@
 
 # A specific programming language used to write code.
 
-# A set of step-by-step instructions designed to solve a problem or perform a task.
+# A set of step-by-step instructions designed to solve a problem or perform a task.//correct
 
 # A type of computer hardware component.
 
