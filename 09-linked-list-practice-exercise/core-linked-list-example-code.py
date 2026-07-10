@@ -14,3 +14,8 @@ class LinkedList:
         """Add a new node to the end of the list."""
         new_node = Node(data)
         
+        # If the list is empty, make the new node the head
+        if not self.head:
+            self.head = new_node
+            return
+        
