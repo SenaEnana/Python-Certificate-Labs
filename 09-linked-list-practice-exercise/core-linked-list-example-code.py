@@ -19,3 +19,8 @@ class LinkedList:
             self.head = new_node
             return
         
+        # Otherwise, traverse to the end of the list
+        current = self.head
+        while current.next:
+            current = current.next
+        
