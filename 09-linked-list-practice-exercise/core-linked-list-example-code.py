@@ -61,3 +61,6 @@ ll.append(10)
 ll.append(20)
 ll.append(30)
 
+print("Original List:")
+ll.display() # Output should be: 10 -> 20 -> 30 -> None
+
