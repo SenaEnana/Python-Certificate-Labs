@@ -25,6 +25,14 @@
 
 # To insert a node at the start of the linked list, you just need to create a connection between the new node and the node that used to be the head node and make the new node the head node instead.
 
+# Inserting a node at the beginning of the linked list has a constant time complexity O(1) because it only requires updating the reference to the head node and the connection between the new head node and the next node in the sequence.
+
+# In this example, we are inserting node E at the start of the linked list. This will work correctly. But if we wanted to keep the linked list sorted in alphabetical order, node E would have to be inserted at the end of the linked list instead.
+
+# To insert a node at the end of the linked list, first you need to reach the end and then add a connection to the new node to make it the new tail node.
+
+# This operation has linear time complexity, O(n), where n is the number of nodes stored in the linked list, because first you need to reach the end of the linked list to make the insertion and this would require going from one node to the next and so on until the end is reached.
+
 # Questions
 
 #1 What is a linked list?
