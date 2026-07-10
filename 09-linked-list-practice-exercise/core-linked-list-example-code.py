@@ -55,7 +55,7 @@ class ExerciseLinkedList(LinkedList):
             
         # TODO:
 
-# Testing implementation
+# Testing implementation 
 ll = ExerciseLinkedList()
 ll.append(10)
 ll.append(20)
