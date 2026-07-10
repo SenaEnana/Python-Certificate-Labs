@@ -24,7 +24,7 @@
 
 # Edge cases are always the easiest parts of the problem to solve.
 
-# They help ensure the algorithm works correctly for all valid inputs.
+# They help ensure the algorithm works correctly for all valid inputs.///correct
 
 # They are only relevant for very simple problems.
 
