@@ -150,8 +150,6 @@
 
 #2 Answer: Clarify the problem and constraints with examples and edge cases.
 
-# What is the key difference between dynamic arrays and static arrays?
-
 #3 Answer: Dynamic arrays can grow or shrink by resizing; static arrays have a fixed size.
 
 # What is the amortized time complexity of appending an element to the end of a dynamic array?
