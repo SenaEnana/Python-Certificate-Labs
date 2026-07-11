@@ -18,4 +18,7 @@ class HashTable:
         # Store the key-value pair inside the nested dictionary
         self.collection[hash_value][key] = value
 
- 
+    def remove(self, key):
+        # Compute the hash value of the key
+        hash_value = self.hash(key)
+        
