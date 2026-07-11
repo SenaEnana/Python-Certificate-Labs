@@ -14,4 +14,8 @@ class HashTable:
         # If the hash value doesn't exist in the collection, initialize a nested dict
         if hash_value not in self.collection:
             self.collection[hash_value] = {}
+            
+        # Store the key-value pair inside the nested dictionary
+        self.collection[hash_value][key] = value
+
  
