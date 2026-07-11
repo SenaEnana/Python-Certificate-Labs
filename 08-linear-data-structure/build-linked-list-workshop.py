@@ -1,2 +1,3 @@
 class LinkedList:
-    pass
+    class Node:
+        pass
