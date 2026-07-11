@@ -5,7 +5,8 @@
 
 # For the purpose of this lab, the hashing function will be simple: 
 # it will sum the Unicode values of each character in the key. 
-# The hash value will then be used as the actual key to store the associated value. The same hash value would also be used to retrieve and delete the value associated with the key.
+# The hash value will then be used as the actual key to store the associated value. 
+# The same hash value would also be used to retrieve and delete the value associated with the key.
 
 # Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
 
