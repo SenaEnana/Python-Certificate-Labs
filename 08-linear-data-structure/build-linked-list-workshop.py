@@ -21,8 +21,10 @@ class LinkedList:
                 current_node = current_node.next
             current_node.next = node
         self.length += 1
+
     def remove(self, element):
-        previous_node = None    
+        previous_node = None
+        current_node  = self.head       
 
 my_list = LinkedList()
 print(my_list.is_empty())
