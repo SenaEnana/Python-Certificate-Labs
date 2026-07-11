@@ -38,3 +38,6 @@ class HashTable:
         # Check if the hash index exists and if the exact key exists inside it
         if hash_value in self.collection and key in self.collection[hash_value]:
             return self.collection[hash_value][key]
+        
+        # Return None if the key does not exist
+        return None
