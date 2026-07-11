@@ -162,50 +162,26 @@
 
 #8 Answer: dequeue
 
-# What is the typical average-case time complexity to look up a value by key in a hash map?
-
 #9 Answer: O(1) on average with a good hash function and low load factor.
-
-# Which guarantee is provided by a set data structure?
 
 #10 Answer: It stores only unique elements (no duplicates).
 
-# In a dynamic array, what is the worst-case time complexity of inserting an element at index i (not at the end)?
-
 #11 Answer: O(n)
-
-# What is the time complexity of inserting a new node at the head of a singly linked list?
 
 #12 Answer: O(1)
 
-# Which operation is used to remove an element from a stack?
-
 #13 Answer: pop
-
-# Which of the following best describes a queue?
 
 #14 Answer: First In, First Out (FIFO) with enqueue at the back and dequeue at the front.
 
-# What is a hash collision in a hash map?
-
 #15 Answer: When two different keys produce the same hash index.
-
-# Why do hash maps resize (rehash) as they grow?
 
 #16 Answer: To keep the load factor low so that average operations remain O(1).
 
-# Which statement about sets is true?
-
 #17 Answer: Membership tests are typically O(1) on average.
-
-# Which time complexity grows faster than O(n log n) as n becomes large?
 
 #18 Answer: O(n^2)
 
-# After implementing a brute-force solution, what is a good next step?
-
 #19 Answer: Analyze its time/space complexity and optimize identified bottlenecks.
-
-# What does space complexity measure?
 
 #20 Answer: How memory usage grows relative to input size.
