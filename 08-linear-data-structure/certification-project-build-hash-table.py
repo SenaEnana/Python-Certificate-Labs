@@ -31,3 +31,6 @@ class HashTable:
             if not self.collection[hash_value]:
                 del self.collection[hash_value]
 
+    def lookup(self, key):
+        # Compute the hash value of the key
+        hash_value = self.hash(key)
