@@ -11,3 +11,7 @@ class HashTable:
         # Compute the hash value of the key
         hash_value = self.hash(key)
         
+        # If the hash value doesn't exist in the collection, initialize a nested dict
+        if hash_value not in self.collection:
+            self.collection[hash_value] = {}
+ 
