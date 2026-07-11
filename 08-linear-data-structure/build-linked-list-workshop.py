@@ -33,7 +33,8 @@ class LinkedList:
         elif previous_node is not None:
             previous_node.next = current_node.next
         else:
-            self.head = current_node.next        
+            self.head = current_node.next
+        self.length -= 1        
 
 my_list = LinkedList()
 print(my_list.is_empty())
