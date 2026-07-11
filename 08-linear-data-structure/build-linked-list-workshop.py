@@ -1,3 +1,4 @@
 class LinkedList:
     class Node:
-        pass
+        def __init__(self, element):
+            self.element = element
