@@ -26,7 +26,8 @@
 # The add method should:
 
 # Take two arguments representing a key-value pair, and compute the hash of the key.
-# Use the computed hash value as a key to store a dictionary containing the key-value pair inside the collection dictionary.
+# Use the computed hash value as a key to store a dictionary containing the key-value pair inside 
+# the collection dictionary.
 # If multiple keys produce the same hash value, their key-value pairs should be stored in the 
 # existing nested dictionary under the same hash value.
 # The remove method should:
