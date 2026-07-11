@@ -34,3 +34,7 @@ class HashTable:
     def lookup(self, key):
         # Compute the hash value of the key
         hash_value = self.hash(key)
+        
+        # Check if the hash index exists and if the exact key exists inside it
+        if hash_value in self.collection and key in self.collection[hash_value]:
+            return self.collection[hash_value][key]
