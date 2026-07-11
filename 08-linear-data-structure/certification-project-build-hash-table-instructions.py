@@ -1,13 +1,18 @@
 # Build a Hash Table
-# In this lab, you will build a hash table from scratch. A hash table is a data structure that stores key-value pairs. A hash table works by taking the key as an input and then hashing this key according to a specific hashing function.
 
-# For the purpose of this lab, the hashing function will be simple: it will sum the Unicode values of each character in the key. The hash value will then be used as the actual key to store the associated value. The same hash value would also be used to retrieve and delete the value associated with the key.
+# In this lab, you will build a hash table from scratch. A hash table is a data structure that stores key-value pairs.
+#  A hash table works by taking the key as an input and then hashing this key according to a specific hashing function.
+
+# For the purpose of this lab, the hashing function will be simple: 
+# it will sum the Unicode values of each character in the key. The hash value will then be used as the actual key to store the associated value. The same hash value would also be used to retrieve and delete the value associated with the key.
 
 # Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
 
 # User Stories:
 
-# You should define a class named HashTable with a collection attribute initialized to an empty dictionary when a new instance of HashTable is created. The collection dictionary should store key-value pairs based on the hashed value of the key.
+# You should define a class named HashTable with a collection attribute 
+# initialized to an empty dictionary when a new instance of HashTable is created. 
+# The collection dictionary should store key-value pairs based on the hashed value of the key.
 
 # The HashTable class should have four instance methods: hash, add, remove, and lookup.
 
