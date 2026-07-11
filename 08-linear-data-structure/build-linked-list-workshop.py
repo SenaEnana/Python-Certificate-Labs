@@ -27,7 +27,9 @@ class LinkedList:
         current_node = self.head
         while current_node is not None and current_node.element != element:
             previous_node = current_node
-            current_node = current_node.next          
+            current_node = current_node.next
+        if current_node is None:
+            return        
 
 my_list = LinkedList()
 print(my_list.is_empty())
