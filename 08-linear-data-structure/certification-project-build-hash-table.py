@@ -26,4 +26,8 @@ class HashTable:
         if hash_value in self.collection and key in self.collection[hash_value]:
             # Delete only the specific key-value pair
             del self.collection[hash_value][key]
- 
+            
+            # Optional cleanup: If the nested dictionary is now empty, remove the hash index entirely
+            if not self.collection[hash_value]:
+                del self.collection[hash_value]
+
