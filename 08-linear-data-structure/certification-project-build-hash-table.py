@@ -22,3 +22,8 @@ class HashTable:
         # Compute the hash value of the key
         hash_value = self.hash(key)
         
+        # Confirm if the hash index exists and the key is inside that nested dictionary
+        if hash_value in self.collection and key in self.collection[hash_value]:
+            # Delete only the specific key-value pair
+            del self.collection[hash_value][key]
+ 
