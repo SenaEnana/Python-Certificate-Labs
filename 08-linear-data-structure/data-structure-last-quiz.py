@@ -140,3 +140,84 @@
 # How many CPU cores a program uses.
 # The length of a program in lines of code.
 # How long a program takes to compile.
+
+
+
+# ///////////////////////////////////////////////////
+# Here are the correct answers for Data Structures Quiz:
+
+#1 Answer: How the time or space grows relative to input size (an upper bound).
+
+#2 Answer: Clarify the problem and constraints with examples and edge cases.
+
+# What is the key difference between dynamic arrays and static arrays?
+
+#3 Answer: Dynamic arrays can grow or shrink by resizing; static arrays have a fixed size.
+
+# What is the amortized time complexity of appending an element to the end of a dynamic array?
+
+# Answer: O(1) amortized.
+
+# Why does accessing the k-th element by index in a singly linked list take O(n) time?
+
+# Answer: You must traverse from the head node to the k-th node one by one.
+
+# Which feature does a doubly linked list have that a singly linked list does not?
+
+# Answer: Pointers to both next and previous nodes enabling backward traversal.
+
+# Which of the following best describes a stack?
+
+# Answer: Last In, First Out (LIFO) with push and pop at the top.
+
+# Which operation removes the element at the front of a queue?
+
+# Answer: dequeue
+
+# What is the typical average-case time complexity to look up a value by key in a hash map?
+
+# Answer: O(1) on average with a good hash function and low load factor.
+
+# Which guarantee is provided by a set data structure?
+
+# Answer: It stores only unique elements (no duplicates).
+
+# In a dynamic array, what is the worst-case time complexity of inserting an element at index i (not at the end)?
+
+# Answer: O(n)
+
+# What is the time complexity of inserting a new node at the head of a singly linked list?
+
+# Answer: O(1)
+
+# Which operation is used to remove an element from a stack?
+
+# Answer: pop
+
+# Which of the following best describes a queue?
+
+# Answer: First In, First Out (FIFO) with enqueue at the back and dequeue at the front.
+
+# What is a hash collision in a hash map?
+
+# Answer: When two different keys produce the same hash index.
+
+# Why do hash maps resize (rehash) as they grow?
+
+# Answer: To keep the load factor low so that average operations remain O(1).
+
+# Which statement about sets is true?
+
+# Answer: Membership tests are typically O(1) on average.
+
+# Which time complexity grows faster than O(n log n) as n becomes large?
+
+# Answer: O(n^2)
+
+# After implementing a brute-force solution, what is a good next step?
+
+# Answer: Analyze its time/space complexity and optimize identified bottlenecks.
+
+# What does space complexity measure?
+
+# Answer: How memory usage grows relative to input size.
