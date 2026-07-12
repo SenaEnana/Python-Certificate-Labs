@@ -18,6 +18,8 @@ The repository includes topics such as:
 * Tuples
 * Dictionaries
 * Sets
+* Object oriented programing
+* Linear data structures
 * File Handling
 * Error Handling
 * Python Labs and Coding Challenges
