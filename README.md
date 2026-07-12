@@ -20,6 +20,7 @@ The repository includes topics such as:
 * Sets
 * Object oriented programing
 * Linear data structures
+* Algorithms
 * File Handling
 * Error Handling
 * Python Labs and Coding Challenges
