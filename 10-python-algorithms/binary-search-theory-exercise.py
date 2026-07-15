@@ -29,3 +29,13 @@
 # It returns the last index checked.
 
 # It enters an infinite loop.
+
+# /////////////////////////////////////////
+# Two types of search algorithms
+# Linear Search Algorithms
+
+# def linear_search(arr, target):
+#     for i in range(len(arr)):
+#         if arr[i] == target:
+#             return i
+#     return -1
