@@ -62,5 +62,6 @@
 # We then check the condition of low being less than or equal to high. If low is greater than high, 
 # we have searched through the entire list and the target value is not found. In that case we stop the search and return -1.
 
-
+# If the low index is less than or equal to the high index, we calculate the middle index of the list, mid. 
+# We then check if the target value is at the middle index. If it is, we return the middle index.
 
