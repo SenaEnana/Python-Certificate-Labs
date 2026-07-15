@@ -68,3 +68,5 @@
 # Otherwise, we check if the value at the midpoint is less than the target. If it is, 
 # we update the low index to be the middle index plus one. This means we will search the right half of the list.
 
+# Lastly, if none of the other conditions are True, 
+# we update the high index to be the middle index minus one. This means we will search the left half of the list.
