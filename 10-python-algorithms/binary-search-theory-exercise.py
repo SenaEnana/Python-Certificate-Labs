@@ -70,3 +70,5 @@
 
 # Lastly, if none of the other conditions are True, 
 # we update the high index to be the middle index minus one. This means we will search the left half of the list.
+
+# We continue to repeat this process until we find the target or determine that the target is not in the list.
