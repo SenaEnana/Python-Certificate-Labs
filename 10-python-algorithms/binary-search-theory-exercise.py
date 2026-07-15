@@ -58,3 +58,9 @@
 #     return -1
 
 # We start by identifying a low and high index. This represents the range of the list we are searching through.
+
+# We then check the condition of low being less than or equal to high. If low is greater than high, 
+# we have searched through the entire list and the target value is not found. In that case we stop the search and return -1.
+
+
+
