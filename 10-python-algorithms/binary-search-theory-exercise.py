@@ -10,8 +10,7 @@
 
 # Binary search always returns the first occurrence of a target.
 
-# What is the time complexity of linear search?
-
+#2 What is the time complexity of linear search?
 
 # O(1)
 
