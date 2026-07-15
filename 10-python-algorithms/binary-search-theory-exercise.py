@@ -72,3 +72,8 @@
 # we update the high index to be the middle index minus one. This means we will search the left half of the list.
 
 # We continue to repeat this process until we find the target or determine that the target is not in the list.
+
+# /////
+# The time complexity of binary search is O(log n) because the time it takes to search through the list grows logarithmically with the size of the list.
+
+# The space complexity of binary search is O(1) because it doesn't require any additional space to search through the list.
