@@ -4,7 +4,7 @@
 
 # Linear search is faster than binary search.
 
-# Binary search requires a sorted list, while linear search does not.
+# Binary search requires a sorted list, while linear search does not.///correct
 
 # Linear search can only be used with numbers.
 
