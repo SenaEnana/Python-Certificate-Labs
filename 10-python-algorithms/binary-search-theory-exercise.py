@@ -1,7 +1,6 @@
 # Questions
 
-# What is the main difference between linear search and binary search?
-
+#1 What is the main difference between linear search and binary search?
 
 # Linear search is faster than binary search.
 
