@@ -77,3 +77,7 @@
 # The time complexity of binary search is O(log n) because the time it takes to search through the list grows logarithmically with the size of the list.
 
 # The space complexity of binary search is O(1) because it doesn't require any additional space to search through the list.
+
+# The time complexity of linear search is O(n) because the time it takes to search through the list grows linearly with the size of the list.
+
+# The space complexity of linear search is O(1) because it doesn't require any additional space to search through the list.
