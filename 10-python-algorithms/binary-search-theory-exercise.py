@@ -16,7 +16,7 @@
 
 # O(log n)
 
-# O(n)
+# O(n)///correct
 
 # O(n²)
 
