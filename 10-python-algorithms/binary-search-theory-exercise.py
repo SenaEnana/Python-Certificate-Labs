@@ -56,3 +56,5 @@
 #             high = mid - 1
 
 #     return -1
+
+# We start by identifying a low and high index. This represents the range of the list we are searching through.
