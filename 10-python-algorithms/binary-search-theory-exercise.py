@@ -65,3 +65,6 @@
 # If the low index is less than or equal to the high index, we calculate the middle index of the list, mid. 
 # We then check if the target value is at the middle index. If it is, we return the middle index.
 
+# Otherwise, we check if the value at the midpoint is less than the target. If it is, 
+# we update the low index to be the middle index plus one. This means we will search the right half of the list.
+
