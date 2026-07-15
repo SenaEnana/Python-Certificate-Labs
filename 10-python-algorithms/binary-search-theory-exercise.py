@@ -20,8 +20,7 @@
 
 # O(n²)
 
-# In binary search, what happens if the target value is not found in the list?
-
+#3 In binary search, what happens if the target value is not found in the list?
 
 # It returns the middle index.
 
