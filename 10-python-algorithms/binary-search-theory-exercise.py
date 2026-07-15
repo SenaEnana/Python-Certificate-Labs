@@ -1,0 +1,34 @@
+# Questions
+
+# What is the main difference between linear search and binary search?
+
+
+# Linear search is faster than binary search.
+
+# Binary search requires a sorted list, while linear search does not.
+
+# Linear search can only be used with numbers.
+
+# Binary search always returns the first occurrence of a target.
+
+# What is the time complexity of linear search?
+
+
+# O(1)
+
+# O(log n)
+
+# O(n)
+
+# O(n²)
+
+# In binary search, what happens if the target value is not found in the list?
+
+
+# It returns the middle index.
+
+# It returns -1.
+
+# It returns the last index checked.
+
+# It enters an infinite loop.
