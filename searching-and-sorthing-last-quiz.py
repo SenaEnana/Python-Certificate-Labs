@@ -9,7 +9,6 @@
 # Bubble search
 
 # 2.Which technique is used to break down a problem into smaller sub-problems?
-
 # Divide-and-conquer
 # Break-down-and-solve
 # Break-down-and-conquer
