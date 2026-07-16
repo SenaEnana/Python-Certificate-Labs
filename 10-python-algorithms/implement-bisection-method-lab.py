@@ -1,7 +1,6 @@
 def square_root_bisection(number, tolerance=1e-7, max_iterations=100):
     if number < 0:
         raise ValueError("Square root of negative number is not defined in real numbers")
-
     if number == 0 or number == 1:
         print(f"The square root of {number} is {number}")
         return number
