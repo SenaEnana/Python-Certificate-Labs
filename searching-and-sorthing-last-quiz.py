@@ -27,7 +27,7 @@
 # Linear search
 # Both
 # None
-# Binary search
+# Binary search///correct
 
 # 5.What is the space complexity of binary search?
 
