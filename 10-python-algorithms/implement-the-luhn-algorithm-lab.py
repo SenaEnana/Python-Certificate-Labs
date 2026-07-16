@@ -9,3 +9,9 @@ def verify_card_number(card_number):
     total_sum = 0
     # Reverse the digits to easily process starting from the right (1-based or 0-based index)
     digits = [int(char) for char in cleaned_card[::-1]]
+    
+    for i, digit in enumerate(digits):
+        # We double every other digit starting from the second to last digit.
+        # Since the list is reversed, the rightmost digit (check digit) is at index 0.
+        # Thus, we double elements at odd indices (1, 3, 5, etc.)
+        pass
