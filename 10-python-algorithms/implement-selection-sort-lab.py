@@ -1,2 +1,2 @@
-def selection_sort(arr):
+def selection_sort():
     pass
