@@ -11,9 +11,6 @@ def verify_card_number(card_number):
     digits = [int(char) for char in cleaned_card[::-1]]
     
     for i, digit in enumerate(digits):
-        # We double every other digit starting from the second to last digit.
-        # Since the list is reversed, the rightmost digit (check digit) is at index 0.
-        # Thus, we double elements at odd indices (1, 3, 5, etc.)
         if i % 2 == 1:
             doubled = digit * 2
             if doubled > 9:
