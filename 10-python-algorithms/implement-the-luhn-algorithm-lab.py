@@ -14,4 +14,6 @@ def verify_card_number(card_number):
         # We double every other digit starting from the second to last digit.
         # Since the list is reversed, the rightmost digit (check digit) is at index 0.
         # Thus, we double elements at odd indices (1, 3, 5, etc.)
-        pass
+        if i % 2 == 1:
+            doubled = digit * 2
+            # If doubling is greater than 9, subtract 9 (which is mathematically equivalent to summing the digits)
