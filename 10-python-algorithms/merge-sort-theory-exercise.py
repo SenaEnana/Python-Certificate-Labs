@@ -12,7 +12,7 @@
 
 #2 What is the time complexity for the merge sort algorithm?
 
-# O(n log n)
+# O(n log n)///correct
 
 # O(log n²)
 
