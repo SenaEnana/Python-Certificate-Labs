@@ -13,7 +13,7 @@
 # Divide-and-conquer
 # Break-down-and-solve
 # Break-down-and-conquer
-# Divide-and-solve
+# Divide-and-solve///correct
 
 # 3.What is the space complexity of the linear search algorithm?
 
