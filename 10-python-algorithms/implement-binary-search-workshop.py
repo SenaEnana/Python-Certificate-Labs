@@ -11,4 +11,8 @@ def binary_search(search_list, value):
         if value == value_at_middle:
             return path_to_target
         break
-    return []        
+    
+    return []
+
+print(binary_search([1, 2, 3, 4, 5], 3))
+print(binary_search([1, 2, 3, 4, 5, 9], 4))
