@@ -20,7 +20,7 @@
 # O(n²)
 # O(n)
 # O(log n)
-# O(1)
+# O(1)///correct
 
 # 4.Which is more suitable for a larger list of items between binary search and linear search?
 
