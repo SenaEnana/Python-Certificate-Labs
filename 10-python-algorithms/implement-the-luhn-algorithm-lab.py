@@ -17,3 +17,8 @@ def verify_card_number(card_number):
         if i % 2 == 1:
             doubled = digit * 2
             # If doubling is greater than 9, subtract 9 (which is mathematically equivalent to summing the digits)
+            if doubled > 9:
+                doubled -= 9
+            total_sum += doubled
+        else:
+            total_sum += digit
