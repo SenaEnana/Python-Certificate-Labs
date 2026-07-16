@@ -57,3 +57,7 @@
 #     sorted_list.extend(right[j:])
 
 #     return sorted_list
+
+
+# The time complexity for merge sort would be O(n log n) because the list is continuously divided in half (log n) and then merged together (O(n)). 
+# Unlike other sorting algorithms like bubble sort, merge sort is not sorted in place and has a space complexity of O(n).
