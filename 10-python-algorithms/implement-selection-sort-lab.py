@@ -14,3 +14,4 @@ def selection_sort(arr):
         if min_idx != i:
             arr[i], arr[min_idx] = arr[min_idx], arr[i]
             
+    return arr
