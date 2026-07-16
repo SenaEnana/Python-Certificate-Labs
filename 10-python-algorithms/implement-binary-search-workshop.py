@@ -5,3 +5,4 @@ def binary_search(search_list, value):
     
     while low <= high:
         mid = (low + high) // 2
+        value_at_middle = search_list[mid]        
