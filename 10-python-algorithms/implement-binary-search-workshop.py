@@ -11,10 +11,11 @@ def binary_search(search_list, value):
         if value == value_at_middle:
             return path_to_target
         elif value > value_at_middle:
-            low = mid + 1 
-        break
+            low = mid + 1
+        else:
+            high = mid - 1
     
     return []
 
 print(binary_search([1, 2, 3, 4, 5], 3))
-print(binary_search([1, 2, 3, 4, 5, 9], 4)) 
+print(binary_search([1, 2, 3, 4, 5, 9], 4))
