@@ -8,3 +8,9 @@ def square_root_bisection(number, tolerance=1e-7, max_iterations=100):
         print(f"The square root of {number} is {number}")
         return number
     
+    # 3. Initialize boundaries for the bisection method
+    # For numbers less than 1 (e.g., 0.25), the square root is larger than the number itself (e.g., 0.5)
+    low = 0.0
+    high = max(1.0, number)
+    
+    
