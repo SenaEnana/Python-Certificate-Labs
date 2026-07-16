@@ -6,3 +6,8 @@ def quick_sort(arr):
     # Choose the first element as the pivot
     pivot = arr[0]
     
+    # Partition the list into three sublists
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    
