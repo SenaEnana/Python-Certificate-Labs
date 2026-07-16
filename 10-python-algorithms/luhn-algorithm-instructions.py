@@ -35,11 +35,4 @@
 # 453914889	VALID!
 # 4111-1111-1111-1111	VALID!
 # 1234 5678 9012 3456	INVALID!
-# Tests:
-# Waiting:1. You should have a function named verify_card_number.
-# Waiting:2. verify_card_number('453914889') should return VALID!.
-# Waiting:3. verify_card_number('4111-1111-1111-1111') should return VALID!.
-# Waiting:4. verify_card_number('453914881') should return INVALID!.
-# Waiting:5. verify_card_number('1234 5678 9012 3456') should return INVALID!.
-# Waiting:6. verify_card_number should return VALID! when called with a valid credit card number.
-# Waiting:7. verify_card_number should return INVALID! when called with an invalid credit card number.
+
