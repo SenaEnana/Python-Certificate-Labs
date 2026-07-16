@@ -1,2 +1,3 @@
-def selection_sort():
-    pass
+def selection_sort(arr):
+    n = len(arr)
+    
