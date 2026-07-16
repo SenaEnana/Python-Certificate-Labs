@@ -3,7 +3,7 @@
 
 # 1.Which search algorithm iterates through a list of items, checking each item from the beginning until the target item is found?
 
-# Linear search
+# Linear search///correct
 # Binary search
 # Merge search
 # Bubble search
