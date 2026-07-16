@@ -15,7 +15,7 @@ def merge_sort(array):
         if left_part[left_array_index] < right_part[right_array_index]:
             array[sorted_index] = left_part[left_array_index]
             left_array_index += 1
-        
         else:
             array[sorted_index] = right_part[right_array_index]
             right_array_index += 1
+        sorted_index += 1
