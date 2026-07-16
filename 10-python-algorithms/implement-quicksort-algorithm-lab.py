@@ -11,3 +11,5 @@ def quick_sort(arr):
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     
+    # Recursively sort the left and right sublists, then concatenate them
+    return quick_sort(left) + middle + quick_sort(right)
