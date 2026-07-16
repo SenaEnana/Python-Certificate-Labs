@@ -22,3 +22,4 @@ def merge_sort(array):
         
     while left_array_index < len(left_part):
         array[sorted_index] = left_part[left_array_index]
+        left_array_index += 1
