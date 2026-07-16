@@ -1,7 +1,6 @@
 # Questions
 
-# What is the divide and conquer paradigm in computer science?
-
+#1 What is the divide and conquer paradigm in computer science?
 
 # A technique for detecting a cycle in function value iterations using just two iterators.
 
@@ -11,8 +10,7 @@
 
 # An algorithm to compute the shortest connecting network for points in a plane.
 
-# What is the time complexity for the merge sort algorithm?
-
+#2 What is the time complexity for the merge sort algorithm?
 
 # O(n log n)
 
@@ -22,8 +20,7 @@
 
 # O(log n³)
 
-# What is the space complexity for the merge sort algorithm?
-
+#3 What is the space complexity for the merge sort algorithm?
 
 # O(n²)
 
