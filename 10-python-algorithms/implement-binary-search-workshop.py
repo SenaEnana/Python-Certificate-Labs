@@ -1,2 +1,2 @@
 def binary_search(search_list, value):
-    pass
+    path_to_target = []    
