@@ -10,6 +10,8 @@ def binary_search(search_list, value):
         
         if value == value_at_middle:
             return path_to_target
+        elif value > value_at_middle:
+            pass        
         break
     
     return []
