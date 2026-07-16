@@ -69,4 +69,4 @@
 # Tracing
 # Dynamic programming
 # Greedy algorithm
-# Divide-and-conquer
+# Divide-and-conquer///correct
