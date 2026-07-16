@@ -32,7 +32,7 @@
 # 5.What is the space complexity of binary search?
 
 # O(log n)
-# O(1)
+# O(1)///correct
 # O(n log n)
 # O(n)
 
