@@ -59,7 +59,7 @@
 
 # 9.What is the condition for a binary search to work?
 
-# The list must be sorted.
+# The list must be sorted.///correct
 # The list must have an even number of elements.
 # The list must contain only unique values.
 # The list must contain no negative numbers.
