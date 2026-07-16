@@ -18,13 +18,10 @@ def square_root_bisection(number, tolerance=1e-7, max_iterations=100):
         if (high - low) <= tolerance:
             print(f"The square root of {number} is approximately {mid}")
             return mid
-        
-        # Update the search interval based on the midpoint
         if mid * mid < number:
             low = mid
         else:
             high = mid
-            
-    # 4. Handle failure to converge within the maximum iterations
+
     print(f"Failed to converge within {max_iterations} iterations")
     return None
