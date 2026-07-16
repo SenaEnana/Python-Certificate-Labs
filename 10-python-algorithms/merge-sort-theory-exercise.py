@@ -6,7 +6,7 @@
 
 # An algorithm for comparing two elements and swapping them from smallest to largest if needed.
 
-# A technique for recursively breaking down problems into smaller sub-problems.
+# A technique for recursively breaking down problems into smaller sub-problems.///correct
 
 # An algorithm to compute the shortest connecting network for points in a plane.
 
