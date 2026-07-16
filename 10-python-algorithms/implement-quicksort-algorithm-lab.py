@@ -1,3 +1,5 @@
 def quick_sort(arr):
     # Base case: an empty list or a list with one element is already sorted
-    pass
+    if len(arr) <= 1:
+        return list(arr)  # Returns a new list to avoid modifying the original if it's empty
+    
