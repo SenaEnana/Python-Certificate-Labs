@@ -46,7 +46,7 @@
 # 7.What does the linear search algorithm return if it doesn't find the target item?
 
 # Undefined
-# -1
+# -1//correct
 # Null
 # 0
 
