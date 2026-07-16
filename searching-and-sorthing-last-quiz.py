@@ -54,7 +54,7 @@
 
 # It searches for an element by checking each item one by one.
 # It builds a sorted list by repeatedly finding the smallest element.
-# It recursively splits the list into smaller items, then merges them in sorted order.
+# It recursively splits the list into smaller items, then merges them in sorted order.///correct
 # It swaps adjacent elements until the list is sorted.
 
 # 9.What is the condition for a binary search to work?
