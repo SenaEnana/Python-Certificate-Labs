@@ -38,7 +38,7 @@
 
 # 6.What does the binary search algorithm return when it finds the target item?
 
-# The index of the target item.
+# The index of the target item.///correct
 # A boolean value of the target.
 # The size of the list searched.
 # The value of the target item.
