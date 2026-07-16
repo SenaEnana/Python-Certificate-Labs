@@ -15,8 +15,6 @@ def square_root_bisection(number, tolerance=1e-7, max_iterations=100):
     
     for _ in range(max_iterations):
         mid = (low + high) / 2.0
-        
-        # Check if the interval size is within the acceptable tolerance margin
         if (high - low) <= tolerance:
             print(f"The square root of {number} is approximately {mid}")
             return mid
