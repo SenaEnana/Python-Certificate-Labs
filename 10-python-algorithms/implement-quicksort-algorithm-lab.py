@@ -3,3 +3,6 @@ def quick_sort(arr):
     if len(arr) <= 1:
         return list(arr)  # Returns a new list to avoid modifying the original if it's empty
     
+    # Choose the first element as the pivot
+    pivot = arr[0]
+    
