@@ -16,14 +16,12 @@ def verify_card_number(card_number):
         # Thus, we double elements at odd indices (1, 3, 5, etc.)
         if i % 2 == 1:
             doubled = digit * 2
-            # If doubling is greater than 9, subtract 9 (which is mathematically equivalent to summing the digits)
             if doubled > 9:
                 doubled -= 9
             total_sum += doubled
         else:
             total_sum += digit
-            
-    # 2. Check if the final sum is a multiple of 10
+
     if total_sum % 10 == 0:
         return "VALID!"
     else:
