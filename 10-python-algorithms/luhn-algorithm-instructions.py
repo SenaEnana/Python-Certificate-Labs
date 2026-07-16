@@ -1,8 +1,11 @@
 # Implement the Luhn Algorithm
-# The Luhn algorithm, also known as the "modulus 10" or "mod 10" algorithm, is a simple checksum formula used to validate a variety of identification numbers, like credit card numbers. These are the steps to validate a number using the Luhn algorithm:
+# The Luhn algorithm, also known as the "modulus 10" or "mod 10" algorithm, 
+# is a simple checksum formula used to validate a variety of identification numbers, like credit card numbers. 
+# These are the steps to validate a number using the Luhn algorithm:
 
 # Starting from the right, and excluding the rightmost digit (the check digit), double the value of every other digit.
-# If the result of doubling a digit is greater than 9, sum the digits to get a single digit. Alternatively, you can subtract 9 from the result.
+# If the result of doubling a digit is greater than 9, sum the digits to get a single digit. Alternatively, 
+# you can subtract 9 from the result.
 # Take the sum of all the digits including the check digit.
 # If the sum of all the digits is a multiple of 10, then the number is valid; else it is not valid.
 # For example, consider the number 453914881. The steps to validate it using the Luhn algorithm are:
@@ -19,7 +22,8 @@
 
 # User Stories:
 
-# You should define a function named verify_card_number that takes a string of digits (representing a card number) and verifies whether it is valid according to the Luhn algorithm.
+# You should define a function named verify_card_number that takes a string of digits (representing a card number) 
+# and verifies whether it is valid according to the Luhn algorithm.
 
 # Within the verify_card_number function:
 
