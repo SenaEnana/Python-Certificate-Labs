@@ -22,3 +22,9 @@ def verify_card_number(card_number):
             total_sum += doubled
         else:
             total_sum += digit
+            
+    # 2. Check if the final sum is a multiple of 10
+    if total_sum % 10 == 0:
+        return "VALID!"
+    else:
+        return "INVALID!"
