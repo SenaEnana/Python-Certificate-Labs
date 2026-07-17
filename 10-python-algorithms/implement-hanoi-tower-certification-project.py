@@ -8,4 +8,6 @@ def hanoi_solver(n):
     # Helper function to capture and format the current peg configuration
     def record_state():
         states.append(f"{pegs[0]} {pegs[1]} {pegs[2]}")
-  
+        
+    # Record the initial state
+    record_state()
