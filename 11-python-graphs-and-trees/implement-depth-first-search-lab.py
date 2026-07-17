@@ -8,3 +8,7 @@ def dfs(matrix, start_node):
     while stack:
         # Pop the last element added to the stack (LIFO principle)
         current = stack.pop()
+        
+        # If the node has not been visited yet, mark it as visited
+        if current not in visited:
+            visited.append(current)
