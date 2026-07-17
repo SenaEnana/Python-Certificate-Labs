@@ -15,4 +15,7 @@ def hanoi_solver(n):
     # Recursive helper to perform the Tower of Hanoi moves
     def solve(disks, src, dst, aux):
         if disks == 1:
-            pass
+            # Move the smallest disk from the source peg to the destination peg
+            pegs[dst].append(pegs[src].pop())
+            record_state()
+            return
