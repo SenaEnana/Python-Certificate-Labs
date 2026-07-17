@@ -22,7 +22,7 @@
 
 #3 If you wanted to find the shortest path from a starting node to a target node in an unweighted graph, which algorithm would be the most suitable choice?
 
-# Breadth-first search (BFS)
+# Breadth-first search (BFS)///correct
 
 # Depth-first search (DFS)
 
