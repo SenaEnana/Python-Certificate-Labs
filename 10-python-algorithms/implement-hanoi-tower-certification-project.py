@@ -32,3 +32,6 @@ def hanoi_solver(n):
 
     # Begin sorting the tower from Peg 0 to Peg 2, using Peg 1 as auxiliary
     solve(n, 0, 2, 1)
+    
+    # Return all recorded states joined by newlines
+    return "\n".join(states)
