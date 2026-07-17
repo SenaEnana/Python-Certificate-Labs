@@ -6,4 +6,5 @@ def dfs(matrix, start_node):
     
     # Continue processing as long as there are nodes in the stack
     while stack:
-        pass
+        # Pop the last element added to the stack (LIFO principle)
+        current = stack.pop()
