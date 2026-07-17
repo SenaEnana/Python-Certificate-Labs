@@ -19,3 +19,5 @@ def dfs(matrix, start_node):
                 # If there is an edge (matrix value is 1) and neighbor isn't visited
                 if matrix[current][neighbor] == 1 and neighbor not in visited:
                     stack.append(neighbor)
+                    
+    return visited
