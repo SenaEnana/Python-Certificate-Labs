@@ -35,4 +35,6 @@ def shortest_path(matrix, start_node, target_node=None):
                     distances[node_no] = new_distance  
                     paths[node_no] = paths[current] + [node_no]
     
-    targets = [target_node] if target_node is not None else range(n)      
+    targets = [target_node] if target_node is not None else range(n)
+    for node_no in targets:
+        pass    
