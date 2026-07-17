@@ -6,7 +6,7 @@
 
 # A computer network with only five connections.
 
-# A dense graph where every node is connected to most other nodes.
+# A dense graph where every node is connected to most other nodes.///correct
 
 # A graph where the main operation is to find all neighbors of a specific node.
 
