@@ -11,4 +11,5 @@ adj_matrix = [
 def shortest_path(matrix, start_node, target_node=None):
     n = len(matrix)
     distances = [INF] * n
-    distances[start_node] = 0    
+    distances[start_node] = 0
+    paths = [[node_no] for node_no in range(n)]   
