@@ -52,3 +52,16 @@
 # [[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]].
 # Waiting:8. When given the adjacency list {0: [1], 1: [0]}, the function should return [[0, 1], [1, 0]].
 # Waiting:9. When given the adjacency list {0: [], 1: [], 2: []}, the function should return [[0, 0, 0], [0, 0, 0], [0, 0, 0]].
+
+# Tests:
+# Passed:1. You should define a function named adjacency_list_to_matrix.
+# Passed:2. The adjacency_list_to_matrix function should have one parameter.
+# Passed:3. The function should correctly determine the number of nodes from the adjacency list.
+# Passed:4. The function should correctly set matrix values to 1 for existing edges.
+# Passed:5. The function should print each row of the matrix.
+# Passed:6. The function should return the adjacency matrix.
+# Passed:7. When given the adjacency list {0: [1, 2], 1: [2], 2: [0, 3], 3: [2]}, the function should return 
+# [[0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1], [0, 0, 1, 0]].
+# Passed:8. When given the adjacency list {0: [1], 1: [0]}, the function should return [[0, 1], [1, 0]].
+# Passed:9. When given the adjacency list {0: [], 1: [], 2: []}, the function should return 
+# [[0, 0, 0], [0, 0, 0], [0, 0, 0]].
