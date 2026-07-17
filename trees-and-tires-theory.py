@@ -28,4 +28,4 @@
 
 # A Binary Tree has no parent-child relationships, unlike a general tree.
 
-# A Binary Tree restricts each node to a maximum of two children, while a general tree does not.
+# A Binary Tree restricts each node to a maximum of two children, while a general tree does not.///correct
