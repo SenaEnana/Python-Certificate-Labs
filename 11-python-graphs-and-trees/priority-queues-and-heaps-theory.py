@@ -12,7 +12,7 @@
 
 #2 Which of the following is a common real-world application where a priority queue would be helpful?
 
-# Scheduling tasks in an operating system where some tasks are more urgent.
+# Scheduling tasks in an operating system where some tasks are more urgent.///correct
 
 # Managing a playlist where songs play in a fixed order.
 
