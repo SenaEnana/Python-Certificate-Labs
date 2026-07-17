@@ -8,5 +8,5 @@ adj_matrix = [
     [INF, 2, INF, 3, INF, 0],
 ]
 
-def shortest_path(matrix, start_node, target_node = None):
-    pass
+def shortest_path(matrix, start_node, target_node=None):
+    n = len(matrix)
