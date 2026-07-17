@@ -14,3 +14,6 @@ def adjacency_list_to_matrix(adj_list):
     # 4. Print each row of the matrix
     for row in matrix:
         print(row)
+        
+    # 5. Return the completed adjacency matrix
+    return matrix
