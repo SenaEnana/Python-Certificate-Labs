@@ -18,7 +18,7 @@
 
 # When the graph has a high number of vertices and many connections.
 
-# When the graph is sparse, with a high number of vertices and a low number of edges.
+# When the graph is sparse, with a high number of vertices and a low number of edges.///correct
 
 #3 Which of the following operations is faster in an adjacency matrix compared to an adjacency list?
 
