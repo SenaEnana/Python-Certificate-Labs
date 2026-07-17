@@ -29,16 +29,3 @@
 # If n is less than 1, the function should return an empty list ([]).
 # The function should return a list of solutions; each solution is itself a list of length n, where the element at 
 # index i is the column index (0-based) of the queen in row i.
-# Tests:
-# Waiting:1. You should have a function named dfs_n_queens that takes one argument.
-# Waiting:2. If n is less than 1, the function should return an empty list.
-# Waiting:3. The function should return a list of solutions, where each solution is a list of length n.
-# Waiting:4. dfs_n_queens(1) should return [[0]].
-# Waiting:5. dfs_n_queens(2) should return [].
-# Waiting:6. dfs_n_queens(3) should return [].
-# Waiting:7. dfs_n_queens(4) should return [[1, 3, 0, 2], [2, 0, 3, 1]].
-# Waiting:8. dfs_n_queens(5) should return [[0, 2, 4, 1, 3], [0, 3, 1, 4, 2], [1, 3, 0, 2, 4], [1, 4, 2, 0, 3], 
-# [2, 0, 3, 1, 4], [2, 4, 1, 3, 0], [3, 0, 2, 4, 1], [3, 1, 4, 2, 0], [4, 1, 3, 0, 2], [4, 2, 0, 3, 1]].
-# Waiting:9. len(dfs_n_queens(5)) should be 10.
-# Waiting:10. len(dfs_n_queens(8)) should be 92.
-# Waiting:11. dfs_n_queens should return the correct result.
