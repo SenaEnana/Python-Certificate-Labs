@@ -24,7 +24,7 @@
 
 # Arrays are always faster than any other data structure.
 
-# Arrays simplify the logic for accessing parent and child nodes using mathematical formulas.
+# Arrays simplify the logic for accessing parent and child nodes using mathematical formulas.///correct
 
 # Arrays allow for direct random access to any element, which is a core heap operation.
 
