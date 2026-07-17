@@ -40,4 +40,5 @@ def shortest_path(matrix, start_node, target_node=None):
         if node_no == start_node or distances[node_no] == INF:
             continue
         string_path = (str(n) for n in paths[node_no])
-        path = ' -> ' .join(string_path)
+        path = ' -> '.join(string_path)
+        print(f'\n{start_node}-{node_no} distance: {distances[node_no]}\nPath: {path}')       
