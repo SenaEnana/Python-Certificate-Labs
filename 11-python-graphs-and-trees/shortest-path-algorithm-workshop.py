@@ -20,11 +20,14 @@ def shortest_path(matrix, start_node, target_node=None):
         current = -1
         for node_no in range(n):
             if not visited[node_no] and distances[node_no] < min_distance:
-                min_distance = distances[node_no]  
+                min_distance = distances[node_no]
                 current = node_no
         
         if current == -1:
             break
         visited[current] = True
-        for node_no in range(n):
-            distance = matrix[current][node_no]         
+        
+        for node_no in range(n):  
+            distance = matrix[current][node_no]
+            if distance != INF and not visited[node_no]:
+                new_distance = distances[current] + distance           
