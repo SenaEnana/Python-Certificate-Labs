@@ -22,3 +22,7 @@ def hanoi_solver(n):
         
         # Step 1: Move the top n-1 disks from src to aux using dst
         solve(disks - 1, src, aux, dst)
+        
+        # Step 2: Move the remaining largest disk from src to dst
+        pegs[dst].append(pegs[src].pop())
+        record_state()
