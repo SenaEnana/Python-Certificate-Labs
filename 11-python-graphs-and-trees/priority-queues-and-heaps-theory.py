@@ -1,7 +1,6 @@
 # Questions
 
-# What is the primary characteristic that distinguishes a priority queue from a standard queue or stack?
-
+#1 What is the primary characteristic that distinguishes a priority queue from a standard queue or stack?
 
 # It allows elements to be accessed by their index.
 
@@ -11,8 +10,7 @@
 
 # It only stores elements of the same data type.
 
-# Which of the following is a common real-world application where a priority queue would be helpful?
-
+#2 Which of the following is a common real-world application where a priority queue would be helpful?
 
 # Scheduling tasks in an operating system where some tasks are more urgent.
 
@@ -22,8 +20,7 @@
 
 # Keeping track of customer names in alphabetical order.
 
-# What is the main reason why heaps are typically implemented as arrays in practice, despite being conceptualized as trees?
-
+#3 What is the main reason why heaps are typically implemented as arrays in practice, despite being conceptualized as trees?
 
 # Arrays are always faster than any other data structure.
 
