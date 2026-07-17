@@ -6,7 +6,7 @@
 
 # It always processes elements in the order they were inserted.
 
-# It retrieves elements based on an assigned priority.
+# It retrieves elements based on an assigned priority.///correct
 
 # It only stores elements of the same data type.
 
