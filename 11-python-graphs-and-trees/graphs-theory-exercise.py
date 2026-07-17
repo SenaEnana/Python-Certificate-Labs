@@ -1,7 +1,6 @@
 # Questions
 
-# What is a graph in computer science?
-
+#1 What is a graph in computer science?
 
 # A data structure used to represent relationships between objects.
 
@@ -11,8 +10,7 @@
 
 # A programming language.
 
-# What are the two main components of a graph?
-
+#2 What are the two main components of a graph?
 
 # Points and lines
 
@@ -22,8 +20,7 @@
 
 # Elements and vertices
 
-# What is a directed graph?
-
+#3 What is a directed graph?
 
 # A graph where edges do not have a direction.
 
