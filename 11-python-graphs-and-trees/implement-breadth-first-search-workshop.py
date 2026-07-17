@@ -9,6 +9,8 @@ def gen_parentheses(pairs):
     while queue:
         print(queue)
         current, opens_used, closes_used = queue.pop(0)
+        if len(current) == 2 * pairs:
+            result.append(current)        
 
     return result
 
