@@ -12,3 +12,8 @@ def dfs(matrix, start_node):
         # If the node has not been visited yet, mark it as visited
         if current not in visited:
             visited.append(current)
+            
+            # Find neighbors from the adjacency matrix
+            # Loop through all nodes in the graph
+            for neighbor in range(len(matrix)):
+                pass
