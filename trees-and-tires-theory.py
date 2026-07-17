@@ -2,7 +2,7 @@
 
 #1 Which of the following statements about a Binary Search Tree (BST) is always true?
 
-# All values in the left subtree of a node are less than the node's value.
+# All values in the left subtree of a node are less than the node's value.///correct
 
 # Every node can have up to three children.
 
