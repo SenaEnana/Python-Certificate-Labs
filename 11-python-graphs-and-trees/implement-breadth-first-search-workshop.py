@@ -8,6 +8,8 @@ def gen_parentheses(pairs):
     result = []
     while queue:
         print(queue)
-        current, opens_used, closes_used = queue.pop(0)        
+        current, opens_used, closes_used = queue.pop(0)
 
     return result
+
+print(gen_parentheses(1))
