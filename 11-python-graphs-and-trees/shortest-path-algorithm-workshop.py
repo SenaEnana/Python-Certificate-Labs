@@ -39,3 +39,4 @@ def shortest_path(matrix, start_node, target_node=None):
     for node_no in targets:
         if node_no == start_node or distances[node_no] == INF:
             continue
+        string_path = (str(n) for n in paths[node_no])      
