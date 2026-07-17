@@ -25,3 +25,22 @@
 # [1] [2] [3]
 # [1] [] [3, 2]
 # [] [] [3, 2, 1]
+# Tests:
+# Waiting:1. You should have a function named hanoi_solver.
+# Waiting:2. Your hanoi_solver function should take a single argument.
+# Waiting:3. Your hanoi_solver function should return a string.
+# Waiting:4. hanoi_solver(2) should return [2, 1] [] []\n[2] [1] []\n[] [1] [2]\n[] [] [2, 1].
+# Waiting:5. hanoi_solver(3) should return [3, 2, 1] [] []\n[3, 2] [] [1]\n[3] [2] [1]\n[3] 
+# [2, 1] []\n[] [2, 1] [3]\n[1] [2] [3]\n[1] [] [3, 2]\n[] [] [3, 2, 1].
+# Waiting:6. hanoi_solver(4) should return [4, 3, 2, 1] [] []\n[4, 3, 2] [1] []\n[4, 3] 
+# [1] [2]\n[4, 3] [] [2, 1]\n[4] [3] [2, 1]\n[4, 1] [3] [2]\n[4, 1] [3, 2] []\n[4] [3, 2, 1] 
+# []\n[] [3, 2, 1] [4]\n[] [3, 2] [4, 1]\n[2] [3] [4, 1]\n[2, 1] [3] [4]\n[2, 1] [] [4, 3]\n[2] 
+# [1] [4, 3]\n[] [1] [4, 3, 2]\n[] [] [4, 3, 2, 1].
+# Waiting:7. hanoi_solver(5) should return [5, 4, 3, 2, 1] [] []\n[5, 4, 3, 2] [] [1]\n[5, 4, 3] 
+# [2] [1]\n[5, 4, 3] [2, 1] []\n[5, 4] [2, 1] [3]\n[5, 4, 1] [2] [3]\n[5, 4, 1] [] [3, 2]\n[5, 4] 
+# [] [3, 2, 1]\n[5] [4] [3, 2, 1]\n[5] [4, 1] [3, 2]\n[5, 2] [4, 1] [3]\n[5, 2, 1] [4] [3]\n[5, 2, 1] [4, 3] 
+# []\n[5, 2] [4, 3] [1]\n[5] [4, 3, 2] [1]\n[5] [4, 3, 2, 1] []\n[] [4, 3, 2, 1] [5]\n[1] [4, 3, 2] [5]\n[1] 
+# [4, 3] [5, 2]\n[] [4, 3] [5, 2, 1]\n[3] [4] [5, 2, 1]\n[3] [4, 1] [5, 2]\n[3, 2] [4, 1] [5]\n[3, 2, 1] [4] 
+# [5]\n[3, 2, 1] [] [5, 4]\n[3, 2] [] [5, 4, 1]\n[3] [2] [5, 4, 1]\n[3] [2, 1] [5, 4]\n[] [2, 1] 
+# [5, 4, 3]\n[1] [2] [5, 4, 3]\n[1] [] [5, 4, 3, 2]\n[] [] [5, 4, 3, 2, 1].
+# Waiting:8. hanoi_solver(n) should solve the tower of Hanoi puzzle for any positive value of n.
