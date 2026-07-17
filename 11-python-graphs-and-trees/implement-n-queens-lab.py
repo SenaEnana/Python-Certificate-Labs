@@ -1,2 +1,2 @@
-def dfs_n_queens():
+def dfs_n_queens(n):
     pass
