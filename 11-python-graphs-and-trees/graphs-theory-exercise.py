@@ -24,7 +24,7 @@
 
 # A graph where edges do not have a direction.
 
-# A graph where edges have a direction.
+# A graph where edges have a direction.///correct
 
 # A graph with more nodes than edges.
 
