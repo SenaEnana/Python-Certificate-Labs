@@ -24,7 +24,7 @@
 
 # Finding all neighbors of a single node.
 
-# Checking if a direct edge exists between two specific nodes.
+# Checking if a direct edge exists between two specific nodes.///correct
 
 # Iterating through all nodes in the graph.
 
