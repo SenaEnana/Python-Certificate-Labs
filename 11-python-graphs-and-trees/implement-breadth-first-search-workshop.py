@@ -7,6 +7,7 @@ def gen_parentheses(pairs):
     queue = [('', 0, 0)]
     result = []
     while queue:
-        print(queue)   
+        print(queue)
+        current, opens_used, closes_used = queue.pop(0)        
 
     return result
