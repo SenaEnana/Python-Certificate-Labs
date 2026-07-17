@@ -2,7 +2,7 @@
 
 #1 What is a graph in computer science?
 
-# A data structure used to represent relationships between objects.
+# A data structure used to represent relationships between objects.///correct
 
 # A mathematical equation.
 
