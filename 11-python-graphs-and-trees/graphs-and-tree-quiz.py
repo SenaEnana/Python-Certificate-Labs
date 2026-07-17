@@ -121,3 +121,86 @@
 # O(n)
 # O(1)
 # O(log n)
+
+
+# Correct answers for Graphs and Trees Quiz:
+
+# What is a graph?
+
+# Answer: A data structure used to represent the connections or relationships between objects or entities.
+
+# Which of the following is NOT a typical scenario that can be represented using a graph?
+
+# Answer: temperature measurement over time
+
+# Which of the following terms describes an object or entity that is part of the network depicted by a graph?
+
+# Answer: Node
+
+# Which of the following terms describes the connections between nodes in a graph?
+
+# Answer: Edges
+
+# What is an undirected graph?
+
+# Answer: A graph where the edges don't have a specific direction.
+
+# Which of the following refers to a graph in which each node is associated with a label or identifier in addition to its data?
+
+# Answer: Vertex labeled graph
+
+# Which of the following refers to a directed graph with at least one cycle?
+
+# Answer: Cyclic graph
+
+# What is a weighted graph?
+
+# Answer: A specific type of edge labeled graph in which the labels on the edges represent values that can be compared and used to perform arithmetic operations.
+
+# What is a directed acyclic graph?
+
+# Answer: A directed graph with no cycles.
+
+# Which of the following refers to a graph with two or more groups of nodes that are not connected by any edges?
+
+# Answer: Disconnected graph
+
+# What is the Breadth-first search algorithm?
+
+# Answer: An algorithm that visits all neighboring nodes before moving to the next level in the graph.
+
+# Which of the following algorithms will follow each branch as deep as possible before it backtracks?
+
+# Answer: Depth-First Search
+
+# Which of the following terms represents a two-dimensional list in which the rows and columns represent the graph's vertices?
+
+# Answer: Adjacency matrix
+
+# Which of the following terms represents an array or dictionary that stores all the neighbors of each node?
+
+# Answer: Adjacency list
+
+# What must be true for a graph to be classified as a tree?
+
+# Answer: It cannot have loops or cycles.
+
+# Which of the following is a type of tree in which each node can have at most two child nodes?
+
+# Answer: Binary tree
+
+# What is a Trie?
+
+# Answer: A tree data structure used to store a set of strings.
+
+# How does the priority queue data structure differ from a regular queue data structure?
+
+# Answer: A priority queue processes elements based on their priority.
+
+# What are the two types of heaps?
+
+# Answer: Max-heap and Min-heap
+
+# What are the average and worst case time complexities for inserting and extracting the minimum or maximum value from a heap?
+
+# Answer: O(log n)
