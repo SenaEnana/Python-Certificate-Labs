@@ -5,3 +5,8 @@ def adjacency_list_to_matrix(adj_list):
     
     # 2. Initialize the matrix with all 0s (size num_nodes x num_nodes)
     matrix = [[0] * num_nodes for _ in range(num_nodes)]
+    
+    # 3. Set matrix values to 1 for existing edges
+    for node, neighbors in adj_list.items():
+        for neighbor in neighbors:
+            matrix[node][neighbor] = 1
