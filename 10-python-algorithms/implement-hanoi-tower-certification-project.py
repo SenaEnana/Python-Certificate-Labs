@@ -11,3 +11,8 @@ def hanoi_solver(n):
         
     # Record the initial state
     record_state()
+    
+    # Recursive helper to perform the Tower of Hanoi moves
+    def solve(disks, src, dst, aux):
+        if disks == 1:
+            pass
