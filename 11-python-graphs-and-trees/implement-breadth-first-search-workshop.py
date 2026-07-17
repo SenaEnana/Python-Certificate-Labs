@@ -14,8 +14,9 @@ def gen_parentheses(pairs):
         else:
             if opens_used < pairs:
                 queue.append((current + '(', opens_used + 1, closes_used))
-                        
-    
+            if closes_used < opens_used:
+                queue.append((current + ')', opens_used, closes_used + 1))            
+
     return result
 
 print(gen_parentheses(1))
