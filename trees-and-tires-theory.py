@@ -1,7 +1,6 @@
 # Questions
 
-# Which of the following statements about a Binary Search Tree (BST) is always true?
-
+#1 Which of the following statements about a Binary Search Tree (BST) is always true?
 
 # All values in the left subtree of a node are less than the node's value.
 
@@ -11,8 +10,7 @@
 
 # It is a specialized tree-like structure optimized for storing strings.
 
-# For which of the following tasks is a trie, or prefix tree most effective?
-
+#2 For which of the following tasks is a trie, or prefix tree most effective?
 
 # Finding the smallest value in a large dataset.
 
@@ -22,8 +20,7 @@
 
 # Storing an unordered list of unique numbers.
 
-# What is the fundamental difference between a general tree and a Binary Tree?
-
+#3 What is the fundamental difference between a general tree and a Binary Tree?
 
 # A Binary Tree can only store numbers, while a general tree can store any data type.
 
