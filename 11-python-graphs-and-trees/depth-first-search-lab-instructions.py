@@ -33,3 +33,12 @@
 # Waiting:5. dfs([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]], 3) should return a list with 3 and 2.
 # Waiting:6. dfs([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]], 0) should return a list with 0 and 1.
 # Waiting:7. The dfs function should return the correct results.
+
+# Tests:
+# Passed:1. You should have a function named dfs that takes two arguments.
+# Passed:2. dfs([[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]], 1) should return a list with 1, 2, 3, and 0.
+# Passed:3. dfs([[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]], 3) should return a list with 1, 2, 3, and 0.
+# Passed:4. dfs([[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]], 3) should return [3].
+# Passed:5. dfs([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]], 3) should return a list with 3 and 2.
+# Passed:6. dfs([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]], 0) should return a list with 0 and 1.
+# Passed:7. The dfs function should return the correct results.
