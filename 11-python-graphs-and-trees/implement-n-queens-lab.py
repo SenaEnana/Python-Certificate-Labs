@@ -23,3 +23,4 @@ def dfs_n_queens(n):
             if is_valid:
                 stack.append(current_state + [col])
                 
+    return solutions
