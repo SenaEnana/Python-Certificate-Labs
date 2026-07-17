@@ -29,3 +29,6 @@ def hanoi_solver(n):
         
         # Step 3: Move the n-1 disks from aux to dst using src
         solve(disks - 1, aux, dst, src)
+
+    # Begin sorting the tower from Peg 0 to Peg 2, using Peg 1 as auxiliary
+    solve(n, 0, 2, 1)
