@@ -10,3 +10,7 @@ def adjacency_list_to_matrix(adj_list):
     for node, neighbors in adj_list.items():
         for neighbor in neighbors:
             matrix[node][neighbor] = 1
+            
+    # 4. Print each row of the matrix
+    for row in matrix:
+        print(row)
