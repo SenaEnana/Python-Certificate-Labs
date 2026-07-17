@@ -10,4 +10,4 @@ adj_matrix = [
 
 def shortest_path(matrix, start_node, target_node=None):
     n = len(matrix)
-    distances = [INF]    
+    distances = [INF] * n
