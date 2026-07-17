@@ -3,3 +3,5 @@ def dfs_n_queens(n):
     if n < 1:
         return []
     
+    solutions = []
+ 
