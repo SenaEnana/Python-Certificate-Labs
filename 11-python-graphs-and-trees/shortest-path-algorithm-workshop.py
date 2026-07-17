@@ -1,0 +1,1 @@
+INF =float('inf')
