@@ -8,6 +8,9 @@ def fibonacci(n):
         
     # 3. Iteratively calculate and append next Fibonacci numbers up to n
     for i in range(2, n + 1):
-        # 
+        # Calculate the next number using the two preceding values
         next_fib = sequence[i - 1] + sequence[i - 2]
         sequence.append(next_fib)
+        
+    # 4. Return the n-th Fibonacci number
+    return sequence[n]
