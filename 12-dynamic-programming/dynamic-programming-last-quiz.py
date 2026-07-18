@@ -70,3 +70,45 @@
 # When the problem requires finding an optimal solution.
 # When subproblems are independent and don't overlap.
 # When space complexity must be minimized.
+
+# Here are the correct answers for the above Quiz:
+
+# What are the two essential properties that must be present in a problem for dynamic programming to be an effective solution approach?
+
+# Answer: Overlapping subproblems and optimal substructure
+
+# What is the primary difference between the memoization and tabulation approaches in dynamic programming?
+
+# Answer: Memoization is a top-down approach using recursion, while tabulation is a bottom-up approach using iteration.
+
+# Why do naive recursive solutions to dynamic programming problems typically have exponential time complexity?
+
+# Answer: Because each recursive call branches multiple times, causing the same subproblems to be recalculated repeatedly.
+
+# What does optimal substructure mean in the context of dynamic programming?
+
+# Answer: The optimal solution can be constructed from optimal solutions to its subproblems.
+
+# When implementing memoization, what happens when a function is called with arguments that have already been computed?
+
+# Answer: The cached result is returned immediately without recomputation.
+
+# What is a key advantage of using tabulation instead of memoization?
+
+# Answer: Tabulation avoids recursion overhead and provides predictable sequential execution.
+
+# In a bottom-up dynamic programming solution, why are base cases initialized first?
+
+# Answer: To provide foundational values upon which all larger subproblems are built.
+
+# How does dynamic programming transform the time complexity of problems that exhibit overlapping subproblems?
+
+# Answer: From exponential to polynomial by storing and reusing subproblem solutions.
+
+# What trade-off does dynamic programming typically make to achieve better time complexity?
+
+# Answer: It uses additional space to store intermediate results.
+
+# In which scenario would dynamic programming NOT be the appropriate algorithmic approach?
+
+# Answer: When subproblems are independent and don't overlap.
