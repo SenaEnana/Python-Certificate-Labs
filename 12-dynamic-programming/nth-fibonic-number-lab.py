@@ -6,6 +6,8 @@ def fibonacci(n):
     if n < len(sequence):
         return sequence[n]
         
-    # 3. 
+    # 3. Iteratively calculate and append next Fibonacci numbers up to n
     for i in range(2, n + 1):
-        pass
+        # 
+        next_fib = sequence[i - 1] + sequence[i - 2]
+        sequence.append(next_fib)
