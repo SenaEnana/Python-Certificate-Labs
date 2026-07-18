@@ -1,2 +1,4 @@
-def fibonacci():
-    pass
+def fibonacci(n):
+
+    sequence = [0, 1]
+    
