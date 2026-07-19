@@ -242,6 +242,26 @@
 
 # It is a sorting method that splits the array recursively and merges the elements in order. 
 
-21 
+# 21 What is the primary benefit of using dynamic programming over naive recursive approaches?
+
+# It works faster on all types of problems.
+
+# It always produces more accurate results than recursion.
+
+# It eliminates redundant calculations by storing and reusing subproblem solutions.
+
+# It can solve problems that recursion cannot solve. 
+
+# 22 What type of problems benefit most from dynamic programming optimization?
+
+# Problems with overlapping subproblems and optimal substructure.
+
+# Problems that can only be solved iteratively.
+
+# Problems that involve network communication.
+
+# Problems that require sorting large datasets. 
+
+23 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
