@@ -222,6 +222,26 @@
 
 # O(n² + n) 
 
-19 
+# 19 Which of the following is a key characteristic of a stack?
+
+# It stores elements in contiguous memory locations like an array.
+
+# Elements can only be added or removed from the top of the stack.
+
+# It allows for simultaneous access and modification of its elements.
+
+# It follows the First-In, First-Out (FIFO) principle, where the first element added is the first to be removed. 
+
+# 20 Which of the following best describes the Binary Search algorithm?
+
+# It is a search algorithm that works on sorted data and reduces the search space by half with each comparison.
+
+# It sorts the array after each comparison to locate the target.
+
+# It is a search algorithm that checks each element sequentially from the beginning until it finds the target.
+
+# It is a sorting method that splits the array recursively and merges the elements in order. 
+
+21 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
