@@ -106,5 +106,49 @@
 
 # [20, 25, 30, 35]
 
+# 11 Do dictionaries preserve the order of insertion?
+
+# Only sometimes.
+
+# Only if specified when creating the dictionary.
+
+# Only in recent Python versions.
+
+# No, never.
+
+# 12 Context
+
+# try:
+
+# number = int(x)
+
+# result = 10 / numberexcept ValueError:
+
+# print('Invalid number.')except ZeroDivisionError:
+
+# print("Can't divide by zero.")else:
+
+# print('Success.')finally:
+
+# print('Done.')
+
+# What is the result of running the code above if x = False?
+
+# Can't divide by zero.
+
+# Success.
+
+# Done.
+
+# Can't divide by zero.
+
+# Done.
+
+# Invalid number.
+
+# Done. 
+
+
+
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
