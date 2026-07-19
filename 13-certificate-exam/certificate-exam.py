@@ -554,6 +554,42 @@
 
 # Only one loop can run at a time.
 
-47 
+# 47 Context
+
+# x = 0while x < 5:
+
+# x += 2print(x)
+
+# What is printed after this code runs?
+
+# 0
+
+# 6
+
+# 3
+
+# 4 
+
+# 48 What is the primary advantage of using a trie (prefix tree) over other data structures for string operations?
+
+# Tries work exclusively with string data and cannot be adapted for other types of sequential data.
+
+# Tries automatically sort all strings in alphabetical order without requiring additional sorting algorithms.
+
+# Tries guarantee constant time complexity for all string operations regardless of string length.
+
+# Tries store shared prefixes only once, making them space-efficient for sets of strings with common beginnings.
+    
+# 49 What are the key features that make hash maps an effective data structure for key-value storage?
+
+# Hash maps require unique keys, provide average O(1) time complexity for basic operations, and use hashing functions to map keys to storage locations.
+
+# Hash maps automatically sort all entries and guarantee that duplicate keys will be stored in adjacent memory locations for efficient access.
+
+# Hash maps guarantee that all operations complete in exactly the same time regardless of data size and never require memory reallocation.
+
+# Hash maps can store unlimited data without memory constraints and always maintain insertion order while preventing any type of data collision. 
+     
+50 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
