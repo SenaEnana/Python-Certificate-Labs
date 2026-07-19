@@ -534,6 +534,26 @@
 
 # The finally block is always required. 
 
-45 
+# 45 What is the main difference between a for loop and a while loop?
+
+# A for loop is used for iterating over a sequence, while a while loop runs as long as a condition is true.
+
+# A for loop can only run with numeric ranges, while a while loop cannot.
+
+# A for loop must always use break, while a while loop does not.
+
+# A while loop can’t use an else clause, but a for loop can.
+
+# 46 Which statement is true about nested loops?
+
+# Outer loop must always end first.
+
+# Inner loops run after all outer loops.
+
+# Inner loop runs completely for each outer iteration.
+
+# Only one loop can run at a time.
+
+47 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
