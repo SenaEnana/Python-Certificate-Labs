@@ -448,4 +448,26 @@
 
 # s.add(5)
 
+# 37 Which statement about class attributes is true?
+
+# They cannot be changed.
+
+# They are shared by all instances of the class
+
+# They are set within the __init__ method.
+
+# They are defined inside methods only.
+
+# 38 How do you access an attribute name of an object p?
+
+# p.name
+
+# p->name
+
+# p(name)
+
+# p['name']
+
+39 
+
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
