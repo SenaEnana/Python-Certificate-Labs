@@ -508,6 +508,32 @@
 
 # range(0,5) 
 
+# 43 Context
 
+# for i in range(5):
+
+# print(i)
+
+# How many times does this loop execute?
+
+# 5
+
+# 4
+
+# 0
+
+# 1 
+
+# 44 Which of the following statements about exception handling is true?
+
+# The try block can exist without any other block.
+
+# else and finally blocks are optional.
+
+# The else block must appear before all except blocks.
+
+# The finally block is always required. 
+
+45 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
