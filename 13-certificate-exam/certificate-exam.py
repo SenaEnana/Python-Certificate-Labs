@@ -324,6 +324,28 @@
 
 # self._name = new_name 
 
-27 
+# 27 Context
+
+# Which of the following best describes inheritance-based polymorphism in object-oriented programming?
+
+# It allows a class to merge the attributes and behaviors of several unrelated parent classes into one.
+
+# It makes subclasses automatically inherit and use all parent methods exactly as they were defined.
+
+# It allows subclasses to provide different implementations of methods defined in a parent class.
+
+# It requires every subclass to fully replicate the structure and behavior of its parent class. 
+
+# 28 What is the key requirement for binary search to work properly?
+
+# The list must be stored in a specific data structure.
+
+# The list must be sorted in ascending order.
+
+# The list must contain unique elements only.
+
+# The list must contain only positive numbers
+
+29 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
