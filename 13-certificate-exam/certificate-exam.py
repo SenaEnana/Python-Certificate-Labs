@@ -86,4 +86,25 @@
 
 # require function_name from module_name
 
+# 9 What happens when you try to modify a character in a string directly?
+
+# Nothing, the string remains unchanged because strings are immutable.
+
+# You get a TypeError because strings are immutable.
+
+# The modification succeeds.
+
+# A new string is created and replaces the old string. 
+
+# 10 Which of the following equals list(range(35, 15, -5))?
+
+# [35, 30, 25, 20]
+
+# [15, 20, 25, 30]
+
+# [35, 30, 25, 20, 15]
+
+# [20, 25, 30, 35]
+
+
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
