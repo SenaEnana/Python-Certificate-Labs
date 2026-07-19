@@ -262,6 +262,26 @@
 
 # Problems that require sorting large datasets. 
 
-23 
+# 23 What is the main difference between single underscore and double underscore prefixed attributes in Python?
+
+# Single underscore makes attributes faster to access than double underscore.
+
+# Single underscore is for methods only, double underscore is for attributes only.
+
+# Single underscore is a convention for internal use, while double underscore triggers name mangling.
+
+# There's no difference, both prevent direct access from outside the class equally. 
+
+# 24 What decorator is used to create a getter in Python?
+
+# @attribute
+
+# @property
+
+# @getter
+
+# @get
+
+25 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
