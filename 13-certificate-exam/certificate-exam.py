@@ -468,6 +468,46 @@
 
 # p['name']
 
-39 
+# 39 Which of the following is a valid conditional expression (ternary operator)?
+
+# 10 if x > 5 then 0
+
+# x > 5 ? 10 : 0
+
+# 10 if x > 5 else 0
+
+# if x > 5 then 10 else 0 
+
+# 40 When using multiple elif statements, how many blocks can be executed?
+
+# The last that evaluates to True.
+
+# All that evaluate to True.
+
+# Only the first that evaluates to True.
+
+# Two at most, except the else block. 
+
+# 41 Which of the following creates a range of numbers from 0 to 4?
+
+# range(0,4)
+
+# range(4)
+
+# range(1,5)
+
+# range(0,5) 
+
+# 42 Which of the following creates a range of numbers from 0 to 4?
+
+# range(0,4)
+
+# range(4)
+
+# range(1,5)
+
+# range(0,5) 
+
+
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
