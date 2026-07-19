@@ -366,6 +366,56 @@
 
 # Its running time roughly triples for every extra input element.
 
-31
+# 31 Which of the following Big O notations represents the fastest-growing function?
+
+# O(n²)
+
+# O(n log n)
+
+# O(2ⁿ)
+
+# O(1) 
+
+# 32 Context
+
+# fruits = ['apple', 'pear', 'banana', 'orange']
+
+# fruits.insert(2, 'plum')
+
+# fruits.pop()
+
+# fruits.append('kiwi')
+
+# What is the value of fruits after running this code?
+
+# ['apple', 'pear', 'banana', 'orange']
+
+# ['apple', 'pear', 'plum', 'kiwi']
+
+# ['pear', 'plum', 'banana', 'orange', 'kiwi']
+
+# ['apple', 'pear', 'plum', 'banana', 'kiwi'] 
+
+# 33 Which of the following is NOT a built-in numeric type in Python?
+
+# int
+
+# decimal
+
+# complex
+
+# float 
+
+# 34 What is the result of 7 % 3 in Python?
+
+# 2
+
+# 2.0
+
+# 2.333
+
+# 1
+
+35 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
