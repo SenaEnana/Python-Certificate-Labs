@@ -282,6 +282,48 @@
 
 # @get
 
-25 
+# 25 What happens if you try to instantiate an abstract class or a concrete class that doesn't implement all abstract methods?
+
+# Python raises a TypeError preventing instantiation.
+
+# The abstract methods are automatically implemented with default behavior.
+
+# The instance is created but the abstract methods return None.
+
+# A warning is displayed but the instance is still created. 
+
+# 26 Context
+
+# class Person:
+
+# def __init__(self, name):
+
+# self._name = name
+
+# Which of the following is the correct way to define a setter for the _name attribute?
+
+# def name(self, new_name):
+
+# self.name = new_name
+
+# @name.setter
+
+# def name(self, new_name):
+
+# self.name = new_name
+
+# @property
+
+# def name(self, new_name):
+
+# self.name = new_name
+
+# @name.setter
+
+# def name(self, new_name):
+
+# self._name = new_name 
+
+27 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
