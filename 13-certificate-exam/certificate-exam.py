@@ -416,6 +416,36 @@
 
 # 1
 
-35 
+# 35 Context
+
+# for i in {'a': 1, 'b': 2}:
+
+# print(i)
+
+# What is the output of this code?
+
+# TypeError
+
+# ('a': 1)
+
+# ('b': 2)
+
+# a
+
+# b
+
+# 1
+
+# 2 
+
+# 36 Which of the following statements adds 5 to a set s?
+
+# s.include(5)
+
+# s.append(5)
+
+# s.insert(5)
+
+# s.add(5)
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
