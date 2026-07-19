@@ -148,7 +148,15 @@
 
 # Done. 
 
+# 12 What is the difference between a class and an object?
 
+# Classes store data, objects define behavior.
+
+# A class is the template or blueprint, and an object is what is created using that template.
+
+# An object is a template or blueprint, and a class is an instance created using that template.
+
+# There is no difference. 
 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
