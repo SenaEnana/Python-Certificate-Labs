@@ -202,6 +202,26 @@
 
 # A boolean
 
+# 17 Which of the following is a key characteristic of an algorithm?
 
+# It must always use recursion.
+
+# It guarantees the fastest possible solution to a problem.
+
+# It is always written in a programming language.
+
+# It cannot continue indefinitely.
+
+# 18 Which of the following is the correct Big O notation for an algorithm that takes 20n² + 15n + 7 operations to be completed?
+
+# O(20n²)
+
+# O(n²)
+
+# O(20n² + 15n)
+
+# O(n² + n) 
+
+19 
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
