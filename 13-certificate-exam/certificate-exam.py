@@ -346,6 +346,26 @@
 
 # The list must contain only positive numbers
 
-29 
+# 29 In the divide and conquer approach used by merge sort, what is the base case?
+
+# When the recursion depth reaches a maximum.
+
+# When the list has exactly two elements.
+
+# When the list has one element or is empty.
+
+# When the list is already sorted. 
+
+# 30 If an algorithm has time complexity O(n³), what does that mean?
+
+# Its running time increases linearly with input size.
+
+# Its running time grows proportionally to the cube of the input size.
+
+# Its running time is constant, regardless of input size.
+
+# Its running time roughly triples for every extra input element.
+
+31
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
