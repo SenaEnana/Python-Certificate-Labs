@@ -181,6 +181,26 @@
 # 3
 
 # 5 
+ 
+# 15 What is the result of evaluating set('lane') == set('anneal')?
+
+# False
+
+# SyntaxError
+
+# True
+
+# TypeError
+
+# 16 What is the result of the division between two integers?
+
+# An integer
+
+# A float
+
+# A complex number
+
+# A boolean
 
 
 
