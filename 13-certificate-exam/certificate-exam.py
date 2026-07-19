@@ -158,5 +158,30 @@
 
 # There is no difference. 
 
+# 13 What is the default value returned by a function?
+
+# Null
+
+# False
+
+# None
+
+# An empty string
+
+# 14 programming_languages = ('Rust', 'Java', 'Python', 'C++', 'Rust', 'Python', 'JavaScript', 'Python')
+
+# i = programming_languages.index('Python', 3)
+
+# What is the value of i?
+
+# (3, 6, 8)
+
+# 6
+
+# 3
+
+# 5 
+
+
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
