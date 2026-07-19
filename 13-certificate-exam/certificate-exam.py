@@ -66,5 +66,24 @@
 
 # They must be inserted in alphabetical order.
 
+# 7 What is the basic syntax for importing a module in Python?
+
+# import module_name
+
+# include module_name
+
+# require module_name
+
+# load module_name
+
+# 8 How do you import specific functions from a module?
+
+# from module_name import function_name
+
+# from module_name require function_name
+
+# import function_name from module_name
+
+# require function_name from module_name
 
 #you can upload and view the exam questions if you are curious also with this am waiting for my certification for the result! thank you!
